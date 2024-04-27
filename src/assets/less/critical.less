@@ -34,7 +34,8 @@
                 width: 100%;
                 height: 100%;
                 background: #000;
-                opacity: 0.7;
+                // cory-changed opacity for hero image
+                opacity: 0.4;
                 display: block;
                 position: absolute;
                 top: 0;
@@ -64,11 +65,16 @@
             /* changes on tablet */
             padding: clamp(9em, 25.95vw, 17.5em) 0;
             position: relative;
+            // z-added hight here to shrink hero
+            height: 40em;
+            // z-added to override and cheese a fix - find something better later
+            padding-top: 12em !important;
 
             &:before {
                 /* Left Line */
                 content: "";
-                width: 1px;
+                // z-set width to 0 to remove left vertical line
+                width: 0px;
                 height: 100%;
                 background: -moz-linear-gradient(
                     top,
@@ -193,7 +199,8 @@
             &:after {
                 /* Right Line */
                 content: "";
-                width: 1px;
+                // z-set width to 0 to remove right vertical line
+                width: 0px;
                 height: 100%;
                 background: -moz-linear-gradient(
                     top,
@@ -223,25 +230,12 @@
 /* Desktop Parallax Effect - 1300px */
 @media only screen and (min-width: 81.25em) {
     #hero {
-        background: url("/assets/images/landing.jpg");
+        background: url("/assets/images/landing.webp");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         /* creates parallax effect on background image */
         background-attachment: fixed;
-    }
-}
-
-/* Dark Mode */
-@media only screen and (min-width: 0em) {
-    body.dark-mode {
-        #hero {
-            .cs-background {
-                &:before {
-                    opacity: 0.8;
-                }
-            }
-        }
     }
 }
 
@@ -331,24 +325,6 @@
 
         .card {
             max-width: (357/16em);
-        }
-    }
-}
-
-/* Dark mode */
-@media only screen and (min-width: 0em) {
-    body.dark-mode {
-        #services {
-            background: var(--medium);
-
-            picture {
-                background: var(--primaryDark);
-            }
-
-            h2 {
-                font-weight: bold;
-                color: #fff;
-            }
         }
     }
 }

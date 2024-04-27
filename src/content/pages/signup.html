@@ -1,0 +1,71 @@
+---
+title: 'Sign Up'
+description: 'Sign Up for th Calgary Reggio Network Association Membership'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'signup/'
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/contact.css">
+{% endblock %}
+
+{% block body %}
+
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Contact Us</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/contact-hero-m.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/contact-hero.webp">
+            <img aria-hidden="true" decoding="async" src="/assets/images/contact-hero.webp" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Contact Form                  -->
+    <!-- ============================================ -->
+
+    <section id="cs-contact">
+        <div class="cs-container">
+            <form id="cs-form" name="Contact Form" method="post">
+                <div class="cs-content">
+                    <span class="cs-topper">Contact</span>
+                    <h2 class="cs-title">Get in Touch</h2>
+                    <p class="cs-text">
+                        We’re eager to connect with you! If you have questions about Reggio-inspired practices, want to join our community, or simply wish to share your experiences, please reach out. Fill out the form below, and we will respond as soon as we can.
+                    </p>
+                </div>
+                <label>
+                    Name
+                    <input required type="text" id="name" name="name" placeholder="Name">
+                </label>
+                <label>
+                    Email
+                    <input required type="text" id="email" name="email" placeholder="Email">
+                </label>
+                <label class="cs-label-message">
+                    Message
+                    <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
+                </label>
+                <button class="cs-button-solid" type="submit">Submit Message</button>
+            </form>
+            <div class="cs-right-section">
+                <!--Email-->
+                <span class="cs-header">Email</span>
+                <a class="cs-link" href="mailto:{{client.email}}">{{client.email}}</a>
+
+                <!-- Background Image-->
+                <picture class="cs-bg-picture">
+                    <source media="(min-width: 601px)" srcset="/assets/images/contact-side.webp">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/contact-side.webp" alt="building" loading="lazy" width="2500" height="1667">
+                </picture>
+
+            </div>
+        </div>
+    </section>
+{% endblock %}

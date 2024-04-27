@@ -22,9 +22,9 @@ eleventyNavigation:
     <section id="int-hero">
         <h1 id="home-h">Blog</h1>
         <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+            <source media="(max-width: 600px)" srcset="/assets/images/blog-hero-m.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/blog-hero.webp">
+            <img aria-hidden="true" decoding="async" src="/assets/images/blog-hero.webp" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
         </picture>
     </section>
 
@@ -39,10 +39,10 @@ eleventyNavigation:
             <!--                 Blog Articles                -->
             <!-- ============================================ -->
 
-            {% if collections.post | length == 0 %}
+            {% if collections.blog | length == 0 %}
                 <h1>No Recent Posts</h1>
             {% else %}
-                {%- for post in collections.post | reverse -%}
+                {%- for post in collections.blog | reverse -%}
                     <article class="recent-articles">
                         <!--Main Article Image-->
                         <picture class="blog-mainImage">
@@ -82,7 +82,5 @@ eleventyNavigation:
                 {%- endfor -%}
             {% endif %}
         </div>
-
-        {% include 'components/featured-post.html' %}
     </div>
 {% endblock %}

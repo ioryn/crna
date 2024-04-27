@@ -1,0 +1,88 @@
+---
+title: 'Events'
+description: 'Calgary Reggio Events'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'events/'
+eleventyNavigation:
+    key: Events
+    order: 300
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/events.css">
+{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Events</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/events-hero-m.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/events-hero.webp">
+            <img aria-hidden="true" decoding="async" src="/assets/images/events-hero.webp" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--              Main Events Content             -->
+    <!-- ============================================ -->
+
+    <div class="events-container main-content-wrapper">
+        <!--Main content -->
+        <div class="main-content">
+            <!-- ============================================ -->
+            <!--                 Events                       -->
+            <!-- ============================================ -->
+<!-- Debugging in any template -->
+
+            {% if collections.events | length == 0 %}
+                <h1>No Recent Posts</h1>
+            {% else %}
+                {%- for post in collections.events | reverse -%}
+                    <article class="recent-articles">
+                        <!--Main Article Image-->
+                        <picture class="events-mainImage">
+                            <img
+                            src="{{ post.data.image }}"
+                            alt="{{ post.data.imageAlt }}"
+                            width="795"
+                            height="400"
+                            decoding="async" />
+                        </picture>
+                        <!--Article Info-->
+                        <div class="article-group">
+                            <div class="events-authorGroup">
+                                <!--Author Image-->
+                                <picture class="events-author-img">
+                                    <img
+                                    src="/assets/svgs/profile.svg"
+                                    alt="house"
+                                    width="32"
+                                    height="32"
+                                    decoding="async" />
+                                </picture>
+                                <span class="events-author">{{ post.data.author }}</span>
+                                <span aria-hidden="true" class="events-dot"></span>
+                                <!--Event Date-->
+                                <span class="events-date">{{ post.date | postDate }}</span>
+                            </div>
+                            <h2 class="events-h1">
+                                {{ post.data.title }}
+                            </h2>
+                            <p class="events-desc">
+                                {{ post.data.description }}
+                            </p>
+                            <a href="{{ post.url }}" class="events-link">Continue Reading</a>
+                        </div>
+                    </article>
+                {%- endfor -%}
+            {% endif %}
+        </div>
+
+    </div>
+{% endblock %}

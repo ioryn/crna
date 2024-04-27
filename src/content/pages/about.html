@@ -12,6 +12,7 @@ eleventyNavigation:
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/reviews.css">
 {% endblock %}
 
 {% block body %}
@@ -22,9 +23,9 @@ eleventyNavigation:
     <section id="int-hero">
         <h1 id="home-h">About Us</h1>
         <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+            <source media="(max-width: 600px)" srcset="/assets/images/aboutus-hero-m.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/aboutus-hero.webp">
+            <img aria-hidden="true" decoding="async" src="/assets/images/aboutus-hero.webp" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
         </picture>
 
     </section>
@@ -34,9 +35,9 @@ eleventyNavigation:
     <!-- ============================================ -->
 
     <section id="sbs">
-        <div class="cs-container">
+        <div class="container">
             <!-- Left Image Section -->
-            <div class="cs-left">
+<!--             <div class="cs-left">
                 <picture class="cs-picture cs-picture1">
                     <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
                     <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
@@ -47,29 +48,121 @@ eleventyNavigation:
                     <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
                     <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
                 </picture>
-            </div>
+            </div> -->
             <!-- Right Content Section-->
-            <div class="cs-right">
+            
                 <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+                <h2 class="cs-title">Our Purpose</h2>
+                <p class="cs-ctext">
+                    To provide support, professional development, opportunities for dialogue, information and resources to individuals and organizations interested in the Reggio philosophy.
                 </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+                <p class="cs-ctext">
+                    As an organization inspired by the Reggio Approach to education, we advocate for education grounded in democratic principles where children have rights of citizenship from birth. We support an image of children as curious, imaginative, resourceful, capable, and intelligent, who construct their understandings from rich educational environments in dialogue with peers and responsive educators.  We advocate for schools that provide environments where children are protagonists in their learning and where there are opportunities for children to express their thinking in diverse ways that include the arts.
                 </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+                <p class="cs-ctext">
+                    We believe that although the principles which ground the Reggio philosophy were originally developed in centres for young children, these principles are relevant to learners of all ages.
+                </p>   
+                <p class="cs-ctext">
+                    We are inspired by the work which began in Reggio Emilia, Italy. The Reggio Approach is not a method to be replicated but serves as a provocation and challenge to educators around the world. The context in which we work is a Canadian context where community, culture and perspective differ from the Italian context. We respect the frame of reference that each individual and organization brings to our association.  This association respects the original philosophy from Reggio Emilia while being mindful of the communities of learning with whom we interact.
+                </p>
+         
+        </div>
+    
+
+    <!-- ============================================ -->
+    <!--                  The Board                   -->
+    <!-- ============================================ -->
+    
+   
+    <div class="container">
+        <h2 class="cs-title">2023 - 2024 Board of Directors</h2>
+    </div>
+    
+    <section id="reviews">
+        <div class="container">
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Pat Tarr<span class="desc">President</span></span>
                 </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Karlee Zelmer<span class="desc">Vice President</span></span>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Alison Humphrys<span class="desc">Treasurer</span></span>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Rachel Duncan<span class="desc">Secretary </span></span>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Sayward Wilkinson Blanc<span class="desc">Communication Liaison</span></span>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Henna Viertio<span class="desc">Resource Coordinator</span></span>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Suzanne Clease<span class="desc">Director</span></span>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Laurie Androsoff<span class="desc">Director</span></span>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Linda O’Donoghue<span class="desc">Director</span></span>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <div class="star-group">
+                    <span class="name">Fabiola Barrios<span class="desc">Director</span></span>
+                </div>
             </div>
         </div>
     </section>
+</section>
 
     {% include 'components/cta.html' %}
 

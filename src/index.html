@@ -1,7 +1,7 @@
 ---
-title: 'Pixel Perfect Websites'
-description: 'Meta description for the page'
-preloadImg: '/assets/images/landing.jpg'
+title: 'Calgary Reggio'
+description: 'Calgary Reggio Network Association'
+preloadImg: '/assets/images/landing.webp'
 permalink: '/'
 eleventyNavigation:
   key: Home
@@ -42,12 +42,11 @@ eleventyNavigation:
     <section id="hero">
         <div class="cs-container">
             <div class="cs-flex-group">
-                <span class="cs-topper">mountain hiking society</span>
-                <h1 class="cs-title">Explore the World with Exciting People</h1>
+                <h1 class="cs-title">Inspiration. Connection. Dialogue.</h1>
                 <p class="cs-text">
-                    Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum.
+                    Calgary Reggio Network Association is grounded and inspired by the practices of Reggio Emilia and provides support, professional learning, opportunities for collaboration and resources within the Canadian context. 
                 </p>
-                <a href="/about" class="cs-button-solid">Explore More</a>
+                <!-- <a href="/about" class="cs-button-solid">Explore More</a> -->
                 <a href="/contact" class="cs-button-transparent">
                     <img
                     class="cs-img"
@@ -57,7 +56,7 @@ eleventyNavigation:
                     alt="play icon"
                     width="17"
                     height="17" />
-                    Get in Touch
+                    Join the Network
                 </a>
             </div>
         </div>
@@ -65,109 +64,21 @@ eleventyNavigation:
         <!-- Background Image -->
         <picture class="cs-picture">
             <source media="(max-width: 600px)" srcset="/assets/images/landing-m.webp">
-            <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/landing.jpg" alt="new home" width="2500" height="1667" loading="eager">
+            <source media="(min-width: 601px)" srcset="/assets/images/landing.webp">
+            <img aria-hidden="true" decoding="async" src="/assets/images/landing.webp" alt="new home" width="2500" height="1667" loading="eager">
         </picture>
     </section>
 
     <!-- ============================================ -->
-    <!--                  Services                    -->
+    <!--                 EVENTS                       -->
     <!-- ============================================ -->
 
-    <section id="services" class="services">
-        <!-- Get Icons From flaticon.com -->
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service1.svg"
-                alt="appliance"
-                width="48"
-                height="48" />
-            </picture>
-            <h2>Service 1</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service2.svg"
-                alt="appliance"
-                width="48"
-                height="48" />
-            </picture>
-            <h2>Service 2</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service3.svg"
-                alt="appliance"
-                width="48"
-                height="48" />
-            </picture>
-            <h2>Service 3</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-    </section>
+
+    {% include 'components/events.html' %}
+
 
     <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
-
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img 
-                    class="cs-quote-icon"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
-                    alt="gavel"
-                    width="136"
-                    height="77" />
-                </div>
-                <a href="/about" class="cs-button-solid">More About Us</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--            Extra Content To Rank             -->
+    <!--                 CALGARY REGGIO               -->
     <!-- ============================================ -->
 
     <section id="sbs-r">
@@ -175,175 +86,91 @@ eleventyNavigation:
             <!-- Left Image Section -->
             <div class="cs-left">
                 <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="560">
+                    <source media="(max-width: 600px)" srcset="/assets/images/events-bg.webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/events-bg.webp">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/events-bg.webp" alt="house" loading="lazy" width="400" height="560">
                 </picture>
                 <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="560">
+                    <source media="(max-width: 600px)" srcset="/assets/images/aboutus-fg.webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/aboutus-fg.webp">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/aboutus-fg.webp" alt="cabinets" loading="lazy" width="400" height="560">
                 </picture>
             </div>
             <!-- Right Content Section-->
             <div class="cs-right">
-                <span class="cs-topper">SEO Ranking</span>
-                <h2 class="cs-title">Talk about a main service keyword</h2>
+                <span class="cs-topper">About Us</span>
+                <h2 class="cs-title">Calgary Reggio</h2>
                 <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+                    The Calgary Reggio Network Association grew out of the Reggio Revisited Exhibition held by local teachers inspired by the Hundred Languages of Children Exhibit from Reggio Emilia, Italy.  This exhibit was hosted in Calgary in 1997.  At that time, an informal network of approximately 30 teachers was formed to engage in opportunities for dialogue and mutual support as they explored the Reggio philosophy.  The network continued to grow and began offering professional development opportunities through network meetings and collaborating with other organizations to host summer institutes.  When the Hundred Languages of Children Exhibit returned in 2006, it generated great interest within the Calgary community and across Western Canada.  In 2007, the Calgary Reggio Network Association (CRNA) formalized its status as a non-profit society. The CRNA currently boasts a diverse membership of over 900 which includes educators, parents, child care providers, artists, social workers and other professionals.
                 </p>
-                <p class="cs-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam. Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia eligendi sapiente eos.
-                </p>
-                <a href="/blog" class="cs-button-solid">Read our Blog</a>
+                <a href="/about" class="cs-button-solid">More About Us</a>
+                <!-- <a href="/blog" class="cs-button-solid">Read our Blog</a> -->
             </div>
         </div>
     </section>
 
     <!-- ============================================ -->
-    <!--                   Gallery                    -->
+    <!--                 REGGIO APPROACH              -->
     <!-- ============================================ -->
-
-    <section id="gallery">
+    
+    <section id="sbs">
         <div class="cs-container">
-            <span class="cs-topper">Our Portfolio</span>
-            <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
-            <div class="cs-image-group">
-                <!-- Row 1-->
-                <div class="cs-row cs-row-1">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port1-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port1.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port1.jpg" alt="new hallway" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port4-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port4.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port4.jpg" alt="new home construction" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port7-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port7.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port7.jpg" alt="building a new wall" loading="lazy" width="400" height="560">
-                    </picture>
-                </div>
-                <!-- Row 2 -->
-                <div class="cs-row cs-row-2">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port2-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port2.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port2.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port5-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port5.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port5.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port8-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port8.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port8.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
-                </div>
-                <!-- Row 3 -->
-                <div class="cs-row cs-row-3">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port3-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port3.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port3.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port6-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port6.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port6.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port9-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port9.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port9.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
-
-                </div>
+            <!-- Left Image Section -->
+            <div class="cs-left">
+                <picture class="cs-picture cs-picture1">
+                    <!-- <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg"> -->
+                    <source media="(max-width: 600px)" srcset="/assets/images/reggio-bg.webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/reggio-bg.webp">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/reggio-bg.webp" alt="cabinets" loading="lazy" width="400" height="563">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/reggio-fg.webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/reggio-fg.webp">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/reggio-fg.webp" alt="house" loading="lazy" width="400" height="563">
+                </picture>
             </div>
-            <a href="/projects" class="cs-button-solid">View Full Gallery</a>
+            <!-- Right Content Section-->
+            <div class="cs-right">
+                <span class="cs-topper">REGGIO EMILIA APPROACH</span>
+                <h2 class="cs-title">“Learning and teaching should not stand on opposite banks and just watch the river flow by; instead, they should embark together on a journey down the water.” – Loris Malaguzzi.</h2>
+                <p class="cs-text">
+                    The Reggio Emilia Approach<sup>&reg;</sup> is an innovative educational philosophy that rose from the ashes of World War II in a city in northern Italy (Reggio Emilia). Loris Malaguzzi, local citizens, the municipality and several local administrators created a network of infant-toddler centres and preschools. This educational project is internationally acclaimed and serves as inspiration to promote quality education and research.
+                </p>
+                <a href="/reggio" class="cs-button-solid">LEARN MORE</a>
+            </div>
         </div>
     </section>
 
     <!-- ============================================ -->
-    <!--                   Reviews                    -->
+    <!--           REIMAGINE CENTRE                   -->
     <!-- ============================================ -->
 
-    <section id="reviews">
+    <section id="sbs-r">
         <div class="cs-container">
-            <span class="cs-topper">Our Reviews</span>
-            <h2 class="cs-title">Words From Our Customers</h2>
-            <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.
-            </p>
-            <ul class="cs-card-group">
-                <!-- Review 1 -->
-                <li class="cs-item">
-                    <img
-                    class="cs-item-img"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
-                    alt="profile picture"
-                    width="80"
-                    height="80" />
-                    <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <span class="cs-reviewer">
-                        Jon Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                    class="cs-item-stars"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                    alt="stars"
-                    width="96"
-                    height="16" />
-                </li>
-                <!-- Review 2 -->
-                <li class="cs-item">
-                    <img
-                    class="cs-item-img"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
-                    alt="profile picture"
-                    width="80"
-                    height="80" />
-                    <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <span class="cs-reviewer">
-                        Jane Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                    class="cs-item-stars"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                    alt="stars"
-                    width="96"
-                    height="16" />
-                </li>
-            </ul>
-            <a aria-label="read more reviews" href="/reviews" class="cs-button-solid">Our Reviews</a>
+            <!-- Left Image Section -->
+            <div class="cs-left">
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="/assets/images/rc-bg.webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/rc-bg.webp">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/rc-bg.webp" alt="house" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/rc-fg.webp">
+                    <source media="(min-width: 601px)" srcset="/assets/images/rc-fg.webp">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/rc-fg.webp" alt="cabinets" loading="lazy" width="400" height="560">
+                </picture>
+            </div>
+            <!-- Right Content Section-->
+            <div class="cs-right">
+                <span class="cs-topper">REIMAGINE CENTRE</span>
+                <h2 class="cs-title">Calgary Reggio</h2>
+                <p class="cs-text">
+                    The Calgary Reggio Network Association and <a href="https://www.commondigs.com/">Common Digs Inc.</a> are in the process of starting our own creative recycling centre, the REimagine Centre, that would be modeled after the <a href="https://www.frchildren.org/en/research/projects/remida">Remida Centre</a> in Reggio Emilia. This centre would allow local artists, children, educators and community members to access and purchase recycled materials for creative endeavours, provide educational and artistic workshops and host community events. The ReImagine Centre would be a visionary space that embraces waste pedagogies with the dynamic convergence of creative expression, environmental consciousness, and educational innovation. It will embody opportunities for creativity using "waste materials", fostering dialogue and collaborative action for local artists, schools and families serving as a catalyst for transformative change in Calgary. If you are interested in helping with this project in any way, we invite you to complete the following short survey: <a href="https://forms.gle/awXy5CrXRazpoxbu7">REimagine Centre Survey</a>.
+                </p>
+                <a href="/re" class="cs-button-solid">To the REimagine Centre</a>
+                <!-- <a href="/blog" class="cs-button-solid">Read our Blog</a> -->
+            </div>
         </div>
     </section>
-
     {% include 'components/cta.html' %}
 {% endblock %}

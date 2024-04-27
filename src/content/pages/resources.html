@@ -1,0 +1,72 @@
+---
+title: 'Resources'
+description: 'Reggio Emilia Resources'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'resources/'
+eleventyNavigation:
+    key: Resources
+    order: 400
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/reviews.css">
+{% endblock %}
+
+{% block body %}
+
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Reggio Emilia Resources</h1>
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/assets/images/resources-hero-m.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/resources-hero.webp">
+            <img aria-hidden="true" decoding="async" src="/assets/images/resources-hero.webp" alt="new home" width="2500" height="1667" loading="eager">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                  Reviews                     -->
+    <!-- ============================================ -->
+
+    <section id="sbs">
+        <div class="container">
+            <!-- Left Image Section -->
+<!--             <div class="cs-left">
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
+                </picture>
+            </div> -->
+            <!-- Right Content Section-->
+            <div class="cs-aboutusc">
+                <span class="cs-topper">Websites</span>
+                <p class="cs-text">
+                    Reggio Children: <a href="https://www.reggiochildren.it/en/">https://www.reggiochildren.it/en/</a>
+                </p>
+                <p class="cs-text">
+                    North American Reggio Emilia Alliance (NAREA): <a href="https://www.reggioalliance.org/">https://www.reggioalliance.org/</a>
+                </p>
+                <p class="cs-text">
+                    Vancouver Reggio Association: <a href="https://vancouverreggioassociation.ca/">https://vancouverreggioassociation.ca/</a>
+                </p>
+                <p class="cs-text">
+                    Ontario Reggio Association: <a href="https://ontarioreggioassociation.ca/">https://ontarioreggioassociation.ca/</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+{% include 'components/cta.html' %}
+
+{% endblock %}

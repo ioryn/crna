@@ -8,7 +8,7 @@
 @media only screen and (min-width: 0em) {
     // Website colors
     :root {
-        --primary: #ffba19;
+        --primary: #8ACCCE;
         --primaryLight: #ffd675;
         --secondary: #001f3f;
         --secondaryLight: #001f3f;
@@ -19,7 +19,7 @@
         /* 13px - 16px */
         --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
         /* 31px - 49px */
-        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --headerFontSize: clamp(1.9375rem, 2.0vw, 3.0625rem);
         --bodyFontSize: 1rem;
 
         /* 60px - 100px top and bottom */
@@ -57,6 +57,15 @@
         width: 100%;
         max-width: 40.625rem;
         margin: 0;
+        color: var(--bodyTextColor);
+    }
+
+    .cs-ctext {
+        font-size: var(--bodyFontSize);
+        line-height: 1.5em;
+        text-align: inherit;
+        width: 100%;
+        margin: 0 0 1.2em 0;
         color: var(--bodyTextColor);
     }
 
@@ -229,84 +238,7 @@
     }
 }
 
-/*-- -------------------------- -->
-<---      Dark Mode Toggle      -->
-<--- -------------------------- -*/
 
-/* Mobile - 360px */
-@media only screen and (min-width: 0rem) {
-    body.dark-mode {
-        #dark-mode-toggle {
-            .cs-sun {
-                opacity: 1;
-                transform: translate(-50%, -50%);
-            }
-
-            .cs-moon {
-                opacity: 0;
-                transform: translate(-50%, -150%);
-                fill: #fff;
-            }
-        }
-    }
-
-    #dark-mode-toggle {
-        width: (48/16rem);
-        height: (48/16rem);
-        padding: 0;
-        background: transparent;
-        border: none;
-        display: block;
-        position: absolute;
-        top: (10/16rem);
-        right: (70/16rem);
-        z-index: 1000;
-        overflow: hidden;
-
-        img,
-        svg {
-            width: (20/16rem);
-            height: (20/16rem);
-            //center image inside button
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            pointer-events: none;
-        }
-
-        .cs-moon {
-            z-index: 2;
-            // Transition properties
-            transition: transform 0.3s, opacity 0.3s;
-
-            // fill: yellow; --> uncomment to change the color of the moon if needed
-        }
-
-        .cs-sun {
-            opacity: 0;
-            z-index: 1;
-            // Transition property
-            transform: translate(-50%, 100%);
-            transition: transform 0.3s, opacity 0.3s;
-        }
-    }
-}
-
-/* Desktop - 1024px */
-@media only screen and (min-width: 64rem) {
-    #dark-mode-toggle {
-        margin: 0;
-        position: relative;
-        top: auto;
-        right: auto;
-        transform: none;
-
-        &:hover {
-            cursor: pointer;
-        }
-    }
-}
 
 /*-- -------------------------- -->
 <---     Mobile Navigation      -->
@@ -578,32 +510,6 @@
     }
 }
 
-/* Dark Mode */
-@media only screen and (max-width: 63.9375rem) {
-    body.dark-mode {
-        #cs-navigation {
-            background-color: var(--dark);
-
-            .cs-logo {
-                /* makes it white */
-                filter: grayscale(1) brightness(1000%);
-            }
-
-            .cs-line {
-                background-color: #fff;
-            }
-
-            .cs-ul-wrapper {
-                background-color: var(--medium);
-            }
-
-            .cs-li-link {
-                color: var(--bodyTextColorWhite);
-            }
-        }
-    }
-}
-
 /*-- -------------------------- -->
 <---     Navigation Dropdown    -->
 <--- -------------------------- -*/
@@ -805,30 +711,6 @@
     }
 }
 
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-    body.dark-mode {
-        #cs-navigation {
-            .cs-drop-ul {
-                background-color: var(--dark);
-            }
-
-            .cs-li-link {
-                &.cs-drop-link {
-                    &:hover {
-                        background-color: var(--medium);
-                    }
-                }
-            }
-
-            .cs-drop-icon {
-                /* turns it white */
-                filter: grayscale(1) brightness(1000%);
-            }
-        }
-    }
-}
-
 /*-- -------------------------- -->
 <---     Desktop Navigation     -->
 <--- -------------------------- -*/
@@ -937,29 +819,6 @@
     }
 }
 
-/* Dark Mode */
-@media only screen and (min-width: 64rem) {
-    body.dark-mode {
-        #cs-navigation {
-            background-color: var(--dark);
-
-            .cs-logo {
-                /* makes it turn white */
-                filter: grayscale(1) brightness(1000%);
-            }
-
-            .cs-li-link {
-                color: var(--bodyTextColorWhite);
-            }
-
-            .cs-li-link {
-                &:before {
-                    background-color: var(--primaryLight);
-                }
-            }
-        }
-    }
-}
 
 /*-- -------------------------- -->
 <---   Interior Page Header     -->
@@ -982,7 +841,7 @@
             width: 100%;
             height: 100%;
             background: #000;
-            opacity: 0.7;
+            opacity: .3;
             display: block;
             position: absolute;
             top: 0;
@@ -1009,13 +868,13 @@
         }
 
         h1 {
-            font-size: (64/30rem);
+            font-size: (64/30rem) !important;
             text-align: center;
             width: 96%;
             max-width: (500/16rem);
             margin: 0 auto;
-            margin-top: (70/16rem);
-            margin-bottom: (30/16rem);
+            /* margin-top: (70/16rem);
+            margin-bottom: (30/16rem); */
             color: #fff;
             position: relative;
         }
@@ -1069,8 +928,7 @@
             content: "";
             width: 100%;
             height: 100%;
-            background: #000;
-            opacity: 0.7;
+            background: #95B0B1;
             display: block;
             position: absolute;
             top: 0;
@@ -1125,7 +983,7 @@
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
     #cta {
-        padding: (168/16rem) 0;
+        /* padding: (168/16rem) 0; */
     }
 }
 
@@ -1139,14 +997,12 @@
         }
         &:after {
             content: "";
-            width: (2000/16rem);
-            height: (1108/16rem);
-            background: url("/assets/svgs/cta-squares.svg");
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            opacity: 1;
-            display: block;
+            width: 100%;
+            height: 100%;
+            /* width: (2000/16rem);
+            height: (1108/16rem); */
+            // cory-changed finalcall background
+            background-color: #95B0B1;
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -1156,36 +1012,6 @@
         .container {
             width: 90.0625%;
             margin: auto;
-        }
-
-        picture {
-            width: 90.0625%;
-            left: 50%;
-            transform: translateX(-50%);
-
-            &:before {
-                content: "";
-                width: 100%;
-                height: 100%;
-                background: #000;
-                opacity: 0.7;
-                display: block;
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: 1;
-            }
-        }
-    }
-}
-
-/* Dark Mode */
-@media only screen and (min-width: 0em) {
-    body.dark-mode {
-        #cta {
-            &:after {
-                display: none;
-            }
         }
     }
 }
@@ -1199,7 +1025,8 @@
     #footer {
         font-size: ~"min(4vw, 1.2em)";
         padding: (84/16rem) 0 (20/16rem);
-        background: #1c1c1c;
+        // z-changed footer bg
+        background: #919081;
 
         .left-section {
             text-align: center;
@@ -1208,7 +1035,8 @@
             .logo {
                 text-align: center;
                 width: auto;
-                height: (32/16em);
+                // z-change logo size here mobile
+                height: (160/16em);
                 margin: auto;
                 margin-bottom: (30/16em);
                 display: inline-block;
@@ -1241,8 +1069,9 @@
                 max-width: (307/16rem);
                 margin: auto;
                 display: flex;
-                justify-content: space-between;
+                justify-content: flex-start;
                 flex-wrap: wrap;
+                gap: 4em;
                 ul {
                     margin-top: 0;
                     margin-bottom: 0;
@@ -1290,7 +1119,7 @@
 
                         &:before {
                             content: "";
-                            width: (97/16rem);
+                            width: (140/16rem);
                             height: (2/16rem);
                             background: var(--primary);
                             opacity: 1;
@@ -1359,13 +1188,15 @@
         }
 
         .left-section {
-            text-align: left;
+            // z-change logo justification
+            text-align: center;
             width: (409/16rem);
             margin: 0;
 
             .logo {
+                // z-change logo size here
                 text-align: left;
-                height: (40/16rem);
+                height: (160/16rem);
                 margin-left: 0;
             }
 
@@ -1409,7 +1240,7 @@
                                 bottom: calc(-3 / 16 * 1rem);
                                 left: 0;
                                 transition: width 0.3s;
-                            }
+                            }F
 
                             &:hover {
                                 &:before {
@@ -1434,11 +1265,105 @@
     }
 }
 
-/* Dark Mode */
+/*-- -------------------------- -->
+<---           Events           -->
+<--- -------------------------- -*/
+
+/* Mobile */
 @media only screen and (min-width: 0em) {
-    body.dark-mode {
-        #footer {
-            background: #061623;
+    #events {
+        padding: (50/16rem) 0;
+        position: relative;
+
+        &:before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            background: #E4E7A4;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
         }
+
+        .container {
+            text-align: center;
+        }
+
+        .title {
+            font-size: ~"min(9vw, 3rem)";
+            font-weight: 900;
+            line-height: (58/48em);
+            text-align: center;
+            margin-bottom: (36/16rem);
+            color: #000000;
+            position: relative;
+        }
+
+        p {
+            text-align: center;
+            width: 96%;
+            max-width: (598/16rem);
+            margin: auto;
+            margin-bottom: (36/16rem);
+            color: #000000;
+            opacity: 1;
+        }
+    }
+}
+
+/* Small Desktop */
+@media only screen and (min-width: 64em) {
+    #events {
+        /* padding: (168/16rem) 0; */
+    }
+}
+
+/* Large Desktop */
+@media only screen and (min-width: 1300px) {
+    #events {
+       /*  margin-top: (100/16rem); */
+        position: relative;
+        &:before {
+            display: none;
+        }
+        &:after {
+            content: "";
+            width: (2000/16rem);
+            height: (1108/16rem);
+            // cory-changed finalcall background
+            background-color: #E4E7A4;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: -3;
+            transform: translateX(-50%);
+        }
+        .container {
+            width: 90.0625%;
+            margin: auto;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 0em) {
+    #aboutusc {
+        
+            width: auto !important;
+            text-align: center !important;
+            margin-left: 40px !important;
+    
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    #aboutusc {
+       
+            width: 98% !important;
+            text-align: center !important;
+            margin-left: 40px !important;
+     
     }
 }
