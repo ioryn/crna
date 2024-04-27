@@ -845,7 +845,7 @@
 /* Large Desktop */
 @media only screen and (min-width: 1300px) {
   #cta {
-    margin-top: 6.25rem;
+    /* margin-top: (100/16rem); */
     position: relative;
   }
   #cta:before {
@@ -1162,5 +1162,90 @@
     width: 98% !important;
     text-align: center !important;
     margin-left: 40px !important;
+  }
+}
+/*-- -------------------------- -->
+<---    Final Call To Action    -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #reggioemilia {
+    padding: 3.125rem 0;
+    position: relative;
+  }
+  #reggioemilia:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #E4E7A4;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #reggioemilia .container {
+    text-align: center;
+  }
+  #reggioemilia picture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+  #reggioemilia picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #reggioemilia .title {
+    font-size: min(9vw, 3rem);
+    font-weight: 900;
+    line-height: 1.20833333em;
+    text-align: center;
+    margin-bottom: 2.25rem;
+    color: #fff;
+    position: relative;
+  }
+  #reggioemilia p {
+    text-align: center;
+    width: 96%;
+    max-width: 37.375rem;
+    margin: auto;
+    margin-bottom: 2.25rem;
+    color: #fff;
+    opacity: 1;
+  }
+}
+/* Large Desktop */
+@media only screen and (min-width: 1300px) {
+  #reggioemilia {
+    /* margin-top: (100/16rem); */
+    position: relative;
+  }
+  #reggioemilia:before {
+    display: none;
+  }
+  #reggioemilia:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    /* width: (2000/16rem);
+            height: (1108/16rem); */
+    background-color: #E4E7A4;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: -3;
+    transform: translateX(-50%);
+  }
+  #reggioemilia .container {
+    width: 90.0625%;
+    margin: auto;
   }
 }
