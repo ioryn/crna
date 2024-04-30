@@ -1,15 +1,15 @@
-/* PAGE-SPECIFIC STYLES FOR jobs AND EVENT PAGES */
+/* PAGE-SPECIFIC STYLES FOR resources AND EVENT PAGES */
 /*-- -------------------------- -->
 <---        Core Styles         -->
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-  .jobs-container {
+  .resources-container {
     width: 94%;
     max-width: 70em;
     margin: auto;
   }
-  .jobs-link {
+  .resources-link {
     font-size: 1rem;
     font-weight: 700;
     /* 46px - 56px */
@@ -18,7 +18,7 @@
     text-decoration: none;
     min-width: 9.375rem;
     margin: auto;
-    /* prjobs padding from adding to the width */
+    /* prresources padding from adding to the width */
     box-sizing: border-box;
     padding: 0 1.5rem;
     color: #fff;
@@ -29,7 +29,7 @@
     z-index: 1;
     transition: color 0.3s;
   }
-  .jobs-link:before {
+  .resources-link:before {
     content: "";
     width: 100%;
     height: 100%;
@@ -44,10 +44,10 @@
     z-index: -1;
     transition: opacity 0.3s;
   }
-  .jobs-link:hover {
+  .resources-link:hover {
     color: var(--headerColor);
   }
-  .jobs-link:hover:before {
+  .resources-link:hover:before {
     opacity: 1;
   }
 }
@@ -60,10 +60,10 @@
     position: relative;
     z-index: 1;
   }
-  #header .jobs-container {
+  #header .resources-container {
     padding: clamp(100px, 14vw, 200px) 0 clamp(50px, 11vw, 100px);
   }
-  #header .jobs-header {
+  #header .resources-header {
     font-size: clamp(24px, 4vw, 48px);
     font-weight: 700;
     line-height: 1.2em;
@@ -72,7 +72,7 @@
     margin: 0;
     color: #fff;
   }
-  #header .jobs-bg {
+  #header .resources-bg {
     width: 100%;
     height: 100%;
     display: block;
@@ -81,7 +81,7 @@
     left: 0;
     z-index: -1;
   }
-  #header .jobs-bg:before {
+  #header .resources-bg:before {
     /* color overlay */
     content: "";
     width: 100%;
@@ -94,7 +94,7 @@
     left: 0;
     z-index: 1;
   }
-  #header .jobs-bg img {
+  #header .resources-bg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -108,7 +108,7 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-  .jobs-container {
+  .resources-container {
     padding: clamp(60px, 7vw, 100px) 0;
   }
   .main-content-wrapper {
@@ -136,54 +136,54 @@
   }
 }
 /*-- -------------------------- -->
-<---    Recent Jobs             -->
+<---    Recent resources             -->
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-  .recent-jobs {
+  .recent-resources {
     width: 100%;
     max-width: 97%;
     overflow: hidden;
     flex: none;
   }
-  .jobs-group {
+  .resources-group {
     /* padding: clamp(30px, 5vw, 50px);
             border: 1px solid #ebebeb;
             border-radius: 0 0 (8/16em) (8/16em); */
   }
-  .jobs-authorGroup {
+  .resources-authorGroup {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 0.75rem;
   }
-  .jobs-author,
-  .jobs-date {
+  .resources-author,
+  .resources-date {
     font-size: 0.875rem;
     line-height: 1.5em;
     color: var(--bodyTextColor);
   }
-  .jobs-dot {
+  .resources-dot {
     width: 3px;
     height: 3px;
     background-color: var(--primary);
     border-radius: 50%;
     display: block;
   }
-  .jobs-h1 {
+  .resources-h1 {
     font-size: clamp(20px, 5vw, 32px);
     font-weight: 700;
     line-height: 1.4em;
     margin: 0.625rem 0;
     color: var(--headerColor);
   }
-  .jobs-desc {
+  .resources-desc {
     font-size: 1rem;
     line-height: 1.5em;
     margin: 1rem 0 2rem;
     color: var(--bodyTextColor);
   }
-  .jobs-link {
+  .resources-link {
     font-size: 1rem;
     font-weight: 700;
     /* 46px - 56px */
@@ -192,7 +192,7 @@
     text-decoration: none;
     min-width: 9.375rem;
     margin: auto;
-    /* prjobs padding from adding to the width */
+    /* prresources padding from adding to the width */
     box-sizing: border-box;
     padding: 0 1.5rem;
     color: #fff;
@@ -203,7 +203,7 @@
     z-index: 1;
     transition: color 0.3s;
   }
-  .jobs-link:before {
+  .resources-link:before {
     content: "";
     width: 100%;
     height: 100%;
@@ -218,16 +218,16 @@
     z-index: -1;
     transition: opacity 0.3s;
   }
-  .jobs-link:hover {
+  .resources-link:hover {
     color: var(--headerColor);
   }
-  .jobs-link:hover:before {
+  .resources-link:hover:before {
     opacity: 1;
   }
 }
 /* Mobile - 1024px */
 @media only screen and (min-width: 64em) {
-  .recent-jobs .jobs-h1 {
+  .recent-resources .resources-h1 {
     max-width: 31.25rem;
   }
 }
@@ -236,7 +236,7 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-  .jobs-sidebar {
+  .resources-sidebar {
     width: 100%;
     max-width: 49.6875em;
     box-sizing: border-box;
@@ -246,7 +246,7 @@
     align-items: center;
     row-gap: 3.125em;
   }
-  .jobs-sidebar .jobs-featured-group {
+  .resources-sidebar .resources-featured-group {
     width: 100%;
     padding: 2.1875em 1.875em;
     border: 1px solid #ebebeb;
@@ -256,7 +256,7 @@
     justify-content: flex-start;
     align-items: center;
   }
-  .jobs-sidebar .jobs-header {
+  .resources-sidebar .resources-header {
     font-size: 1.25em;
     font-weight: bold;
     text-align: center;
@@ -265,7 +265,7 @@
     display: block;
     position: relative;
   }
-  .jobs-sidebar .jobs-header:after {
+  .resources-sidebar .resources-header:after {
     content: "";
     width: 3.125rem;
     height: 3px;
@@ -275,7 +275,7 @@
     display: block;
     position: relative;
   }
-  .jobs-sidebar .jobs-feature {
+  .resources-sidebar .resources-feature {
     text-decoration: none;
     width: 100%;
     padding: 1.25rem 0;
@@ -285,14 +285,14 @@
     align-items: center;
     column-gap: 1.5em;
   }
-  .jobs-sidebar .jobs-feature:nth-of-type(1) {
+  .resources-sidebar .resources-feature:nth-of-type(1) {
     padding-top: 0;
   }
-  .jobs-sidebar .jobs-feature:last-of-type {
+  .resources-sidebar .resources-feature:last-of-type {
     padding-bottom: 0;
     border: none;
   }
-  .jobs-sidebar .jobs-featureImage {
+  .resources-sidebar .resources-featureImage {
     width: 3.75em;
     height: 3.75em;
     border-radius: 50%;
@@ -301,7 +301,7 @@
     overflow: hidden;
     flex: none;
   }
-  .jobs-sidebar .jobs-featureImage img {
+  .resources-sidebar .resources-featureImage img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -309,7 +309,7 @@
     top: 0;
     left: 0;
   }
-  .jobs-sidebar .feature-h3 {
+  .resources-sidebar .feature-h3 {
     font-size: 0.9375rem;
     font-weight: 700;
     line-height: 1.5em;
@@ -319,7 +319,7 @@
     color: var(--headerColor);
     display: block;
   }
-  .jobs-sidebar .feature-date {
+  .resources-sidebar .feature-date {
     font-size: 0.875rem;
     line-height: 1.5em;
     color: var(--bodyTextColor);
@@ -328,21 +328,21 @@
 }
 /* Tablet - 1024px */
 @media only screen and (min-width: 64em) {
-  .jobs-sidebar {
+  .resources-sidebar {
     max-width: 22.5em;
   }
 }
 /*-- -------------------------- -->
-<---        Jobs Articles       -->
+<---        resources Articles       -->
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-  .jobs-article {
+  .resources-article {
     width: 100%;
     max-width: 49.6875em;
     display: block;
   }
-  .jobs-article .jobs-mainImage {
+  .resources-article .resources-mainImage {
     width: 100%;
     height: clamp(200px, 30vw, 400px);
     margin-bottom: 3.125em;
@@ -351,7 +351,7 @@
     position: relative;
     overflow: hidden;
   }
-  .jobs-article .jobs-mainImage img {
+  .resources-article .resources-mainImage img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -359,7 +359,7 @@
     top: 0;
     left: 0;
   }
-  .jobs-article .jobs-author-img {
+  .resources-article .resources-author-img {
     width: 2em;
     height: 2em;
     border-radius: 50%;
@@ -367,7 +367,7 @@
     position: relative;
     overflow: hidden;
   }
-  .jobs-article .jobs-author-img img {
+  .resources-article .resources-author-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -375,26 +375,26 @@
     top: 0;
     left: 0;
   }
-  .jobs-article .jobs-authorGroup {
+  .resources-article .resources-authorGroup {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 0.75rem;
   }
-  .jobs-article .jobs-author,
-  .jobs-article .jobs-date {
+  .resources-article .resources-author,
+  .resources-article .resources-date {
     font-size: 0.875rem;
     line-height: 1.5em;
     color: var(--bodyTextColor);
   }
-  .jobs-article .jobs-dot {
+  .resources-article .resources-dot {
     width: 3px;
     height: 3px;
     background-color: #fe4f70;
     border-radius: 50%;
     display: block;
   }
-  .jobs-article .jobs-h1 {
+  .resources-article .resources-h1 {
     font-size: clamp(20px, 5vw, 39px);
     font-weight: 700;
     line-height: 1.4em;
@@ -402,68 +402,68 @@
     margin: 1rem 0;
     color: var(--headerColor);
   }
-  .jobs-article #jobs-content {
+  .resources-article #resources-content {
     margin-top: 1em;
     padding-top: 1.5625em;
     border-top: 1px solid #ebebeb;
   }
-  .jobs-article #jobs-content h1 {
+  .resources-article #resources-content h1 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1.75em;
     margin-bottom: 1rem;
     color: var(--headerColor);
   }
-  .jobs-article #jobs-content h2 {
+  .resources-article #resources-content h2 {
     font-size: 1.75rem;
     font-weight: 700;
     line-height: 1.5em;
     margin-bottom: 1rem;
     color: var(--headerColor);
   }
-  .jobs-article #jobs-content h3 {
+  .resources-article #resources-content h3 {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.5em;
     margin-bottom: 1rem;
     color: var(--headerColor);
   }
-  .jobs-article #jobs-content h4,
-  .jobs-article #jobs-content h5,
-  .jobs-article #jobs-content h6 {
+  .resources-article #resources-content h4,
+  .resources-article #resources-content h5,
+  .resources-article #resources-content h6 {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.5em;
     margin-bottom: 1rem;
     color: var(--headerColor);
   }
-  .jobs-article #jobs-content p {
+  .resources-article #resources-content p {
     font-size: 1rem;
     line-height: 1.6em;
     margin: 0;
     margin-bottom: 1rem;
     color: var(--bodyTextColor);
   }
-  .jobs-article #jobs-content a {
+  .resources-article #resources-content a {
     font-size: inherit;
     text-decoration: underline;
     color: var(--secondary);
   }
-  .jobs-article #jobs-content ul,
-  .jobs-article #jobs-content ol {
+  .resources-article #resources-content ul,
+  .resources-article #resources-content ol {
     margin: 0;
     margin: 1rem 0;
     padding-left: 2.5rem;
   }
-  .jobs-article #jobs-content ul li,
-  .jobs-article #jobs-content ol li {
+  .resources-article #resources-content ul li,
+  .resources-article #resources-content ol li {
     font-size: 1rem;
     line-height: 1.6em;
     list-style: circle;
     margin-bottom: 1rem;
     color: var(--bodyTextColor);
   }
-  .jobs-article #jobs-content img {
+  .resources-article #resources-content img {
     width: 100%;
     height: auto;
     margin: 1rem 0;

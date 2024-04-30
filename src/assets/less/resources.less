@@ -1,4 +1,4 @@
-/* PAGE-SPECIFIC STYLES FOR jobs AND EVENT PAGES */
+/* PAGE-SPECIFIC STYLES FOR resources AND EVENT PAGES */
 
 /*-- -------------------------- -->
 <---        Core Styles         -->
@@ -6,13 +6,13 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-    .jobs-container {
+    .resources-container {
         width: 94%;
         max-width: (1120/16em);
         margin: auto;
     }
 
-    .jobs-link {
+    .resources-link {
         font-size: (16/16rem);
         font-weight: 700;
         /* 46px - 56px */
@@ -21,7 +21,7 @@
         text-decoration: none;
         min-width: (150/16rem);
         margin: auto;
-        /* prjobs padding from adding to the width */
+        /* prresources padding from adding to the width */
         box-sizing: border-box;
         padding: 0 (24/16rem);
         color: #fff;
@@ -69,11 +69,11 @@
         position: relative;
         z-index: 1;
 
-        .jobs-container {
+        .resources-container {
             padding: clamp(100px, 14vw, 200px) 0 clamp(50px, 11vw, 100px);
         }
 
-        .jobs-header {
+        .resources-header {
             font-size: clamp(24px, 4vw, 48px);
             font-weight: 700;
             line-height: 1.2em;
@@ -83,7 +83,7 @@
             color: #fff;
         }
 
-        .jobs-bg {
+        .resources-bg {
             width: 100%;
             height: 100%;
             display: block;
@@ -124,7 +124,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-    .jobs-container {
+    .resources-container {
         padding: clamp(60px, 7vw, 100px) 0;
     }
 
@@ -156,39 +156,39 @@
 }
 
 /*-- -------------------------- -->
-<---    Recent Jobs             -->
+<---    Recent resources             -->
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-    .recent-jobs {
+    .recent-resources {
             width: 100%;
             max-width: 97%;
             overflow: hidden;
             flex: none;
         }
 
-        .jobs-group {
+        .resources-group {
             /* padding: clamp(30px, 5vw, 50px);
             border: 1px solid #ebebeb;
             border-radius: 0 0 (8/16em) (8/16em); */
         }
 
-        .jobs-authorGroup {
+        .resources-authorGroup {
             display: flex;
             justify-content: flex-start;
             align-items: center;
             gap: (12/16rem);
         }
 
-        .jobs-author,
-        .jobs-date {
+        .resources-author,
+        .resources-date {
             font-size: (14/16rem);
             line-height: 1.5em;
             color: var(--bodyTextColor);
         }
 
-        .jobs-dot {
+        .resources-dot {
             width: 3px;
             height: 3px;
             background-color: var(--primary);
@@ -196,7 +196,7 @@
             display: block;
         }
 
-        .jobs-h1 {
+        .resources-h1 {
             font-size: clamp(20px, 5vw, 32px);
             font-weight: 700;
             line-height: 1.4em;
@@ -204,14 +204,14 @@
             color: var(--headerColor);
         }
 
-        .jobs-desc {
+        .resources-desc {
             font-size: (16/16rem);
             line-height: 1.5em;
             margin: (16/16rem) 0 (32/16rem);
             color: var(--bodyTextColor);
         }
 
-        .jobs-link {
+        .resources-link {
             font-size: (16/16rem);
             font-weight: 700;
             /* 46px - 56px */
@@ -220,7 +220,7 @@
             text-decoration: none;
             min-width: (150/16rem);
             margin: auto;
-            /* prjobs padding from adding to the width */
+            /* prresources padding from adding to the width */
             box-sizing: border-box;
             padding: 0 (24/16rem);
             color: #fff;
@@ -261,8 +261,8 @@
 
 /* Mobile - 1024px */
 @media only screen and (min-width: 64em) {
-    .recent-jobs {
-        .jobs-h1 {
+    .recent-resources {
+        .resources-h1 {
             max-width: (500/16rem);
         }
     }
@@ -274,7 +274,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-    .jobs-sidebar {
+    .resources-sidebar {
         width: 100%;
         max-width: (795/16em);
         box-sizing: border-box;
@@ -284,7 +284,7 @@
         align-items: center;
         row-gap: (50/16em);
 
-        .jobs-featured-group {
+        .resources-featured-group {
             width: 100%;
             padding: (35/16em) (30/16em);
             border: 1px solid #ebebeb;
@@ -295,7 +295,7 @@
             align-items: center;
         }
 
-        .jobs-header {
+        .resources-header {
             font-size: (20/16em);
             font-weight: bold;
             text-align: center;
@@ -316,7 +316,7 @@
             }
         }
 
-        .jobs-feature {
+        .resources-feature {
             text-decoration: none;
             width: 100%;
             padding: (20/16rem) 0;
@@ -336,7 +336,7 @@
             }
         }
 
-        .jobs-featureImage {
+        .resources-featureImage {
             width: (60/16em);
             height: (60/16em);
             border-radius: 50%;
@@ -377,22 +377,22 @@
 
 /* Tablet - 1024px */
 @media only screen and (min-width: 64em) {
-    .jobs-sidebar {
+    .resources-sidebar {
         max-width: (360/16em);
     }
 }
 
 /*-- -------------------------- -->
-<---        Jobs Articles       -->
+<---        resources Articles       -->
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-    .jobs-article {
+    .resources-article {
         width: 100%;
         max-width: (795/16em);
         display: block;
-        .jobs-mainImage {
+        .resources-mainImage {
             width: 100%;
             height: clamp(200px, 30vw, 400px);
             margin-bottom: (50/16em);
@@ -411,7 +411,7 @@
             }
         }
 
-        .jobs-author-img {
+        .resources-author-img {
             width: (32/16em);
             height: (32/16em);
             border-radius: 50%;
@@ -429,21 +429,21 @@
             }
         }
 
-        .jobs-authorGroup {
+        .resources-authorGroup {
             display: flex;
             justify-content: flex-start;
             align-items: center;
             gap: (12/16rem);
         }
 
-        .jobs-author,
-        .jobs-date {
+        .resources-author,
+        .resources-date {
             font-size: (14/16rem);
             line-height: 1.5em;
             color: var(--bodyTextColor);
         }
 
-        .jobs-dot {
+        .resources-dot {
             width: 3px;
             height: 3px;
             background-color: #fe4f70;
@@ -451,7 +451,7 @@
             display: block;
         }
 
-        .jobs-h1 {
+        .resources-h1 {
             font-size: clamp(20px, 5vw, 39px);
             font-weight: 700;
             line-height: 1.4em;
@@ -460,7 +460,7 @@
             color: var(--headerColor);
         }
 
-        #jobs-content {
+        #resources-content {
             margin-top: (16/16em);
             padding-top: (25/16em);
             border-top: 1px solid #ebebeb;
