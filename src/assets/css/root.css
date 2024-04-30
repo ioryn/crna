@@ -55,8 +55,17 @@
     line-height: 1.5em;
     text-align: inherit;
     width: 100%;
-    margin: 0 0 1.2em 0;
+    margin: 0 0 2em 0;
     color: var(--bodyTextColor);
+  }
+  .cs-itext {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    margin: 0 0 2em 0;
+    color: var(--bodyTextColor);
+    font-style: italic;
   }
   .cs-button-solid {
     font-size: 1rem;
@@ -1248,4 +1257,19 @@
     width: 90.0625%;
     margin: auto;
   }
+}
+a {
+  color: #8ACCCE;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+a:hover,
+a:focus {
+  color: #5f8788;
+}
+#footer a {
+  color: #fff;
+}
+#footer a:hover {
+  color: var(--primary);
 }

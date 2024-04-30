@@ -32,7 +32,7 @@ permalink: 'contact/'
 
     <section id="cs-contact">
         <div class="cs-container">
-            <form id="cs-form" name="Contact Form" method="post">
+            <form id="cs-form" name="Contact Form" method="POST" data-netlify="true">
                 <div class="cs-content">
                     <span class="cs-topper">Contact</span>
                     <h2 class="cs-title">Get in Touch</h2>
@@ -46,11 +46,11 @@ permalink: 'contact/'
                 </label>
                 <label>
                     Email
-                    <input required type="text" id="email" name="email" placeholder="Email">
+                    <input required type="email" id="email" name="email" placeholder="Email">
                 </label>
                 <label class="cs-label-message">
                     Message
-                    <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
+                    <textarea required name="Message" id="message" placeholder="Message..."></textarea>
                 </label>
                 <button class="cs-button-solid" type="submit">Submit Message</button>
             </form>
@@ -58,14 +58,14 @@ permalink: 'contact/'
                 <!--Email-->
                 <span class="cs-header">Email</span>
                 <a class="cs-link" href="mailto:{{client.email}}">{{client.email}}</a>
-
+    
                 <!-- Background Image-->
                 <picture class="cs-bg-picture">
                     <source media="(min-width: 601px)" srcset="/assets/images/contact-side.webp">
                     <img aria-hidden="true" decoding="async" src="/assets/images/contact-side.webp" alt="building" loading="lazy" width="2500" height="1667">
                 </picture>
-
             </div>
         </div>
     </section>
+    
 {% endblock %}

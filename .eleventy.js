@@ -36,7 +36,16 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("blog", function(collectionApi) {
         return collectionApi.getFilteredByGlob("./src/content/blog/*.md");
     });
-    
+
+    // Define the jobs collection
+    eleventyConfig.addCollection("jobs", function(collectionApi) {
+        return collectionApi.getFilteredByGlob("./src/content/jobs/*.md");
+    });
+
+    // Define the resources collection
+    eleventyConfig.addCollection("resources", function(collectionApi) {
+        return collectionApi.getFilteredByGlob("./src/content/resources/*.md");
+    });
 
     // Continue with existing config settings
 

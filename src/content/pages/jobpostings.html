@@ -1,0 +1,76 @@
+---
+title: 'Job Postings'
+description: 'Job Postings'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'jobpostings/'
+eleventyNavigation:
+    key: Jobs
+    order: 300
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/jobs.css">
+{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Job Postings</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/jobs-hero-m.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/jobs-hero.webp">
+            <img aria-hidden="true" decoding="async" src="/assets/images/jobs-hero.webp" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--              Main Jobs Content               -->
+    <!-- ============================================ -->
+
+    <section id="sbs">
+        <div class="container">
+            <span class="cs-topper">AVAILABLE OPPORTUNITIES</span>
+          
+
+                <!-- ============================================ -->
+                <!--                 Job Postings                 -->
+                <!-- ============================================ -->
+
+                {% if collections.jobs | length == 0 %}
+                    <h1>No Recent Posts</h1>
+                {% else %}
+                    {%- for post in collections.jobs | reverse -%}
+                        <article class="cs-ctext">
+                            <!--Article Info-->
+                            <div class="jobs-group">
+                                <h2 class="cs-title">
+                                    {{ post.data.title }} - 
+                                    {{ post.date | postDate }}
+                                </h2>
+                                <section id="jobs-content">
+                                    {{ post.templateContent | safe }}
+                                </section>
+                            </div>
+                        </article>
+                    {%- endfor -%}
+                {% endif %}
+            
+        </div>
+   
+        <div class="container">
+            <span class="cs-itext">
+                <p>* The Calgary Reggio Network Association is not affiliated with organizations or individuals posted on this website.</p>                
+                <p>* The Calgary Reggio Network Association is not responsible for any job postings posted on this website.</p>
+            </span>
+        </div>
+    </section>
+
+
+{% include 'components/cta.html' %}
+{% endblock %}

@@ -65,8 +65,18 @@
         line-height: 1.5em;
         text-align: inherit;
         width: 100%;
-        margin: 0 0 1.2em 0;
+        margin: 0 0 2em 0;
         color: var(--bodyTextColor);
+    }
+
+    .cs-itext {
+        font-size: var(--bodyFontSize);
+        line-height: 1.5em;
+        text-align: inherit;
+        width: 100%;
+        margin: 0 0 2em 0;
+        color: var(--bodyTextColor);
+        font-style: italic;
     }
 
     // Button - can be replaced using CodeStitch's "Button" Stitches
@@ -1459,6 +1469,31 @@
         .container {
             width: 90.0625%;
             margin: auto;
+        }
+    }
+}
+
+// Define your color variables for links
+@link-color: #8ACCCE;       // Normal link color
+@link-hover-color: #5f8788; // Hover link color
+
+// Global link styles
+a {
+    color: @link-color;
+    text-decoration: none; // Removes underline by default
+    transition: color 0.3s ease-in-out;
+
+    &:hover, &:focus {
+        color: @link-hover-color;
+    }
+}
+
+// Specific styles for footer to ensure it doesn't adopt the global link styles
+#footer {
+    a {
+        color: #fff; // Keeps footer links white as specified before
+        &:hover {
+            color: var(--primary); // Ensures hover color stays unique to footer
         }
     }
 }
