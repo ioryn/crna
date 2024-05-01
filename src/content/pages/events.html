@@ -46,38 +46,24 @@ eleventyNavigation:
                 {%- for post in collections.events | reverse -%}
                     <article class="recent-articles">
                         <!--Main Article Image-->
-                        <picture class="events-mainImage">
+                        <!-- <picture class="events-mainImage">
                             <img
                             src="{{ post.data.image }}"
                             alt="{{ post.data.imageAlt }}"
                             width="795"
                             height="400"
                             decoding="async" />
-                        </picture>
+                        </picture> -->
                         <!--Article Info-->
                         <div class="article-group">
-                            <div class="events-authorGroup">
-                                <!--Author Image-->
-                                <picture class="events-author-img">
-                                    <img
-                                    src="/assets/svgs/profile.svg"
-                                    alt="house"
-                                    width="32"
-                                    height="32"
-                                    decoding="async" />
-                                </picture>
-                                <span class="events-author">{{ post.data.author }}</span>
-                                <span aria-hidden="true" class="events-dot"></span>
-                                <!--Event Date-->
-                                <span class="events-date">{{ post.date | postDate }}</span>
-                            </div>
                             <h2 class="events-h1">
-                                {{ post.data.title }}
+                                {{ post.data.title }} - 
+                                {{ post.date | postDate }}
                             </h2>
                             <p class="events-desc">
                                 {{ post.data.description }}
+                                {{ post.templateContent | safe }}
                             </p>
-                            <a href="{{ post.url }}" class="events-link">Continue Reading</a>
                         </div>
                     </article>
                 {%- endfor -%}

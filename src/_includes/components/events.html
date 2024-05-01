@@ -1,12 +1,28 @@
-<!-- ============================================ -->
-<!--             Events                           -->
-<!-- ============================================ -->
-
 <section id="events">
     <div class="container">
-       <!--  <h2 class="title">
-            Events
-        </h2> -->
-        <a href="/contact" class="cs-button-solid">Events</a>
+        {% if collections.events | length == 0 %}
+            <h1>No Recent Posts</h1>
+        {% else %}
+            {% set counter = 0 %}
+            {%- for post in collections.events | reverse -%}
+                {% if counter < 2 %}
+                    <article class="recent-articles">
+                        <div class="event-item">
+                            <!--Main Article Image-->
+                            <a class="event-image" href="{{ post.data.link }}">
+                                <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" decoding="async" />
+                            </a>
+                            <div class="event-description">
+                                {{ post.data.description }}
+                            </div>
+                        </div>
+                    </article>
+                    {% set counter = counter + 1 %}
+                {% endif %}
+            {%- endfor -%}
+        {% endif %}
+    </div>
+    <div class="container">
+        <a href="/events" class="cs-button-solid">All Events</a>
     </div>
 </section>
