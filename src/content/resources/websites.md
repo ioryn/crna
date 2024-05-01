@@ -1,6 +1,6 @@
 ---
 title: Websites
-date: 2024-04-30T18:47:22.347Z
+date: 2024-04-29T18:47:22.347Z
 tags:
   - resources
 ---
@@ -13,4 +13,3 @@ tags:
 <p class="cs-ctext">Ontario Reggio Association: <a href="https://ontarioreggioassociation.ca/">https://ontarioreggioassociation.ca/</a></p>
 
 <p class="cs-ctext">Reggio Children On-Demand Professional Learning Webinars: <a href="https://www.reggiochildren.it/en/rc/education/webinar-on-demand">https://www.reggiochildren.it/en/rc/education/webinar-on-demand/</a></p>
-

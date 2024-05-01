@@ -47,6 +47,16 @@ module.exports = function (eleventyConfig) {
         return collectionApi.getFilteredByGlob("./src/content/resources/*.md");
     });
 
+    eleventyConfig.addShortcode("youtube", (videoURL, title) => {
+        const url = new URL(videoURL);
+        const id = url.searchParams.get("v");
+        return `
+    <iframe class="yt-shortcode" src="https://www.youtube-nocookie.com/embed/${id}" title="YouTube video player${
+          title ? ` for ${title}` : ""
+        }" frameborder="0" allowfullscreen></iframe>
+    `;
+      });
+
     // Continue with existing config settings
 
     
