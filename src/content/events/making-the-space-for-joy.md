@@ -4,7 +4,7 @@ link: https://www.zeffy.com/en-CA/ticketing/536f8eb4-d188-4473-8b69-3e5675ce44af
 date: 2024-05-04T05:09:26.414Z
 tags:
   - event
-image: /assets/images/upload/make-space-for-joy.jpg
+image: /assets/images/upload/original-7c466614-3d23-4572-8b49-2a1d821ae421.jpeg
 imageAlt: making the space for joy
 description: Get access to the recording of Dave Kelly's inspiring keynote
   address, "Making Space for Joy" that was given at our 25th Anniversary on May
