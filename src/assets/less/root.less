@@ -1275,155 +1275,94 @@
     }
 }
 
-/*-- -------------------------- -->
-<---           Events           -->
-<--- -------------------------- -*/
+/*-- ------------------------------------>
+<---    Events on Home                 -->
+<--- -----------------------------------*/
 
-/* Mobile */
-@media only screen and (min-width: 0em) {
-    #events {
-        padding: (50/16rem) 0;
-        position: relative;
+#events {
+    padding: 50px 0;
+    position: relative;
+    background: #E4E7A4;
+    overflow: hidden;
 
-        &:before {
-            content: "";
-            width: 100%;
-            height: 100%;
-            background: #E4E7A4;
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        z-index: -1;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .recent-articles {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 500px; /* Controls width of the boxes */
+        margin: 10px;
+        border: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        @media (min-width: 768px) { /* Change to a larger min-width if needed */
+            flex: 1 0 48%; /* Flex basis set to 48% to ensure two boxes per line */
         }
-
-        .container {
-            display: flex; /* Enables flexbox layout */
-            flex-wrap: wrap; /* Allows items to wrap onto the next line */
-            justify-content: center; /* Centers items horizontally */
-            max-width: 100%; /* Adjusts total width to accommodate two items */
-            margin: auto; /* Center aligns the container */
-        }
-
-        .title {
-            font-size: ~"min(9vw, 3rem)";
-            font-weight: 900;
-            line-height: (58/48em);
-            text-align: center;
-            margin-bottom: (36/16rem);
-            color: #000000;
-            position: relative;
-        }
-
-        p {
-            text-align: center;
-            width: 96%;
-            max-width: (598/16rem);
-            margin: auto;
-            margin-bottom: (36/16rem);
-            color: #000000;
-            opacity: 1;
-        }
-
-        .recent-articles {
-        margin: 10px; /* Space around articles */
-        flex: 0 0 500px; /* Gives each item a base width of 700px to fit two per row */
-        display: flex; /* Ensures the layout within each article is flex */
-        border: 1px solid #fff; /* General border */
-        overflow: hidden; /* Prevents contents from spilling out */
 
         .event-item {
             display: flex;
-            width: 100%; /* Ensures the item fills its container */
-            align-items: center; /* Vertically centers content within each item */
+            flex-direction: column;
+
+            @media (min-width: 768px) {
+                flex-direction: row;
+                align-items: center;
+            }
 
             .event-image {
-                flex: 0 0 200px; /* Fixed width, no growing or shrinking */
-                height: 200px;
+                width: 100%;
+                height: 200px; /* Maintains aspect ratio */
                 img {
                     width: 100%;
                     height: 100%;
-                    object-fit: cover; /* Ensures the image covers the area without distortion */
+                    object-fit: cover;
+                }
+
+                @media (min-width: 768px) {
+                    width: 200px; /* Width for larger screens */
+                    flex: 0 0 200px; /* Flex-basis as 200px to maintain size */
                 }
             }
 
             .event-description {
-                flex: 1; /* Takes up the remaining space */
+                flex-grow: 1;
                 padding: 10px;
-                width: 500px; /* Fixed width for description */
-                height: 200px; /* Fixed height for description */
                 display: flex;
-                align-items: center; /* Vertically center the text */
-                justify-content: center; /* Horizontally center the text */
+                align-items: center;
+                justify-content: center;
                 text-align: center;
-                overflow: hidden; /* Prevent text overflow */
             }
         }
     }
 
     a.cs-button-solid {
-        margin-top: 20px; /* Ensures margin from the last event */
-        align-self: center; /* Centers button independently of other items */
-    }
-    }
-}
-
-/* Small Desktop */
-@media only screen and (min-width: 64em) {
-    #events {
-        /* padding: (168/16rem) 0; */
+        display: block;
+        margin: 20px auto;
     }
 }
 
-/* Large Desktop */
-@media only screen and (min-width: 1300px) {
-    #events {
-       /*  margin-top: (100/16rem); */
-        position: relative;
-        &:before {
-            display: none;
-        }
-        &:after {
-            content: "";
-            width: 100%;
-            height: (1108/16rem);
-            background-color: #E4E7A4;
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            z-index: -3;
-            transform: translateX(-50%);
-        }
-        .container {
-            display: flex; /* Enables flexbox layout */
-            flex-wrap: wrap; /* Allows items to wrap onto the next line */
-            justify-content: center; /* Centers items horizontally */
-            max-width: 100%; /* Adjusts total width to accommodate two items */
-            margin: auto; /* Center aligns the container */
-        }
-    }
-}
+/* Consider adding additional media queries if necessary for very large screens */
 
 
-@media only screen and (min-width: 0em) {
-    #aboutusc {
-        
-            width: auto !important;
-            text-align: center !important;
-            margin-left: 40px !important;
-    
-    }
-}
 
-@media only screen and (min-width: 1300px) {
-    #aboutusc {
-       
-            width: 98% !important;
-            text-align: center !important;
-            margin-left: 40px !important;
-     
-    }
-}
 
 /*-- ------------------------------------>
 <---    Reggio Final Call To Action    -->
