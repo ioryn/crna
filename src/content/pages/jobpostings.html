@@ -1,7 +1,7 @@
 ---
 title: 'Job Postings'
 description: 'Job Postings'
-preloadImg: '/assets/images/cabinets2.jpg'
+preloadImg: '/assets/images/jobs-hero.webp'
 permalink: 'jobpostings/'
 eleventyNavigation:
     key: Jobs
@@ -35,9 +35,6 @@ eleventyNavigation:
 
     <section id="sbs">
         <div class="container">
-            <span class="cs-topper">AVAILABLE OPPORTUNITIES</span>
-          
-
                 <!-- ============================================ -->
                 <!--                 Job Postings                 -->
                 <!-- ============================================ -->
@@ -49,10 +46,10 @@ eleventyNavigation:
                     <article class="cs-ctext">
                         <!--Article Info-->
                         <div class="jobs-group">
-                            <h2 class="cs-title">
-                                {{ post.data.title }} - 
-                                {{ post.date | postDate }}
+                            <h2 class="cs-topper">
+                                {{ post.data.title }}
                             </h2>
+                            <span class="cs-title">{{ post.date | postDate }}</span>
                             <section id="jobs-content">
                                 {{ post.templateContent | safe }}
                             </section>
@@ -66,13 +63,14 @@ eleventyNavigation:
 
             
         </div>
-   
-        <div class="container">
-            <span class="cs-itext">
-                <p>* The Calgary Reggio Network Association is not affiliated with organizations or individuals posted on this website.</p>                
-                <p>* The Calgary Reggio Network Association is not responsible for any job postings posted on this website.</p>
-            </span>
-        </div>
+        <section id="sbs">
+            <div class="container">
+                <span class="cs-itext">
+                    <p>* The Calgary Reggio Network Association is not affiliated with organizations or individuals posted on this website.</p>                
+                    <p>* The Calgary Reggio Network Association is not responsible for any job postings posted on this website.</p>
+                </span>
+            </div>
+        </section>
     </section>
 
 
