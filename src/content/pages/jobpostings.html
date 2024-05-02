@@ -43,23 +43,27 @@ eleventyNavigation:
                 <!-- ============================================ -->
 
                 {% if collections.jobs | length == 0 %}
-                    <h1>No Recent Posts</h1>
+                <h1>No Recent Posts</h1>
                 {% else %}
-                    {%- for post in collections.jobs | reverse -%}
-                        <article class="cs-ctext">
-                            <!--Article Info-->
-                            <div class="jobs-group">
-                                <h2 class="cs-title">
-                                    {{ post.data.title }} - 
-                                    {{ post.date | postDate }}
-                                </h2>
-                                <section id="jobs-content">
-                                    {{ post.templateContent | safe }}
-                                </section>
-                            </div>
-                        </article>
-                    {%- endfor -%}
+                {%- for post in collections.jobs | reverse -%}
+                    <article class="cs-ctext">
+                        <!--Article Info-->
+                        <div class="jobs-group">
+                            <h2 class="cs-title">
+                                {{ post.data.title }} - 
+                                {{ post.date | postDate }}
+                            </h2>
+                            <section id="jobs-content">
+                                {{ post.templateContent | safe }}
+                            </section>
+                            {% if post.data.pdf %}
+                                <a href="{{ post.data.pdf }}" class="cs-button-solid" target="_blank">Download PDF</a>
+                            {% endif %}
+                        </div>
+                    </article>
+                {%- endfor -%}
                 {% endif %}
+
             
         </div>
    
