@@ -27,8 +27,8 @@ module.exports = function (eleventyConfig) {
     // END PLUGINS
 
 
-    // Define the events collection
-    eleventyConfig.addCollection("events", function(collectionApi) {
+     // Define the events collection
+     eleventyConfig.addCollection("events", function(collectionApi) {
         return collectionApi.getFilteredByGlob("./src/content/events/*.md");
     });
 
@@ -37,16 +37,15 @@ module.exports = function (eleventyConfig) {
         return collectionApi.getFilteredByGlob("./src/content/blog/*.md");
     });
 
-    // Define the blog collection
+    // Define the jobs collection
     eleventyConfig.addCollection("jobs", function(collectionApi) {
         return collectionApi.getFilteredByGlob("./src/content/jobs/*.md");
     });
 
-    // Define the blog collection
+    // Define the resources collection
     eleventyConfig.addCollection("resources", function(collectionApi) {
         return collectionApi.getFilteredByGlob("./src/content/resources/*.md");
     });
-
     
     eleventyConfig.addShortcode("youtube", (videoURL, title) => {
         const url = new URL(videoURL);
