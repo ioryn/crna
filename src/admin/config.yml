@@ -5,7 +5,7 @@ backend:
 
 local_backend: true
 # change url to a link to the image you want to use, no file paths, must be a URL
-logo_url: https://calgaryreggio.org/assets/images/logo-light-wide.png
+logo_url: https://calgaryreggio.org/assets/images/logo-light-wide.svg
 
 publish_mode: editorial_workflow
 media_folder: "src/assets/images/upload"
