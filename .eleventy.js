@@ -13,22 +13,16 @@ module.exports = function (eleventyConfig) {
     // Setting up CSS files to be recognised as a template language, and can be passed through eleventy. This allows our minifier to read CSS files and minify them
     eleventyConfig.addTemplateFormats("css");
     eleventyConfig.addExtension("css", configCssExtension);
-    // END EXTENSIONS
 
     // PLUGINS - Adds additional eleventy functionality
     // Sets up the eleventy navigation plugin for a scalable navigation as used in _includes/components/header.html
-    // https://github.com/11ty/eleventy-navigation
     eleventyConfig.addPlugin(pluginEleventyNavigation);
 
     // Automatically generate a sitemap, using the domain in _data/client.json
-    // https://www.npmjs.com/package/@quasibit/eleventy-plugin-sitemap
     eleventyConfig.addPlugin(pluginSitemap, configSitemap);
 
-    // END PLUGINS
-
-
-     // Define the events collection
-     eleventyConfig.addCollection("events", function(collectionApi) {
+    // Define the events collection
+    eleventyConfig.addCollection("events", function(collectionApi) {
         return collectionApi.getFilteredByGlob("./src/content/events/*.md");
     });
 
@@ -46,47 +40,33 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("resources", function(collectionApi) {
         return collectionApi.getFilteredByGlob("./src/content/resources/*.md");
     });
-    
-    eleventyConfig.addShortcode("youtube", (videoURL, title) => {
-        const url = new URL(videoURL);
-        const id = url.searchParams.get("v");
-        return `
-    <iframe class="yt-shortcode" src="https://www.youtube-nocookie.com/embed/${id}" title="YouTube video player${
-          title ? ` for ${title}` : ""
-        }" frameborder="0" allowfullscreen></iframe>
-    `;
-      });
-
-    
-    // SERVER - Set how the eleventy dev server is run, using the options from https://www.11ty.dev/docs/dev-server/
-    eleventyConfig.setServerOptions(configServer);
-    // END SERVER
 
     // PASSTHROUGHS - "Pass through" source files to /public, without being processed by eleventy
-    // Individually specify what asset folders are passed through. LESS is processed by it's compiler into ./src and passed through as a template for minification
     eleventyConfig.addPassthroughCopy("./src/assets/css");
     eleventyConfig.addPassthroughCopy("./src/assets/favicons");
     eleventyConfig.addPassthroughCopy("./src/assets/fonts");
     eleventyConfig.addPassthroughCopy("./src/assets/images");
     eleventyConfig.addPassthroughCopy("./src/assets/svgs");
     eleventyConfig.addPassthroughCopy("./src/assets/js");
-
-    // Other required folders are passed through
     eleventyConfig.addPassthroughCopy("./src/admin");
     eleventyConfig.addPassthroughCopy("./src/_redirects");
     eleventyConfig.addPassthroughCopy({ "./src/robots.txt": "/robots.txt" });
-    // END PASSTHROUGHS
 
-    // FILTERS - Modify data in template files at build time
-    // Converts dates from JSDate format (Fri Dec 02 18:00:00 GMT-0600) to a locale format. More info in docs - https://moment.github.io/luxon/api-docs/index.html#datetime
+    // FILTERS
     eleventyConfig.addFilter("postDate", filterPostDate);
-    // END FILTERS
 
-    // SHORTCODES - Output data using JS at build-time
-    // Gets the current year, which can be outputted with {% year %}. Used for the footer copyright. Updates with every build.
+    // SHORTCODES
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-    // END SHORTCODES
+    eleventyConfig.addShortcode("youtube", (videoURL, title) => {
+        const url = new URL(videoURL);
+        const id = url.searchParams.get("v");
+        return `<iframe class="yt-shortcode" src="https://www.youtube-nocookie.com/embed/${id}" title="YouTube video player${title ? ` for ${title}` : ""}" frameborder="0" allowfullscreen></iframe>`;
+    });
 
+    // SERVER
+    eleventyConfig.setServerOptions(configServer);
+
+    // Return configuration for Eleventy
     return {
         dir: {
             input: "src",
