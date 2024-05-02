@@ -1,7 +1,7 @@
 ---
 title: newevent1
 link: newevent1
-date: 2024-05-02T04:48:38.018Z
+date: 2024-05-03T04:48:38.018Z
 tags:
   - event
 image: /assets/images/upload/make-space-for-joy.jpg
