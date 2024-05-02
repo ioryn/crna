@@ -11,4 +11,4 @@ description: "In nature, we build on the capable image of the child through
   possibilities together with us, learning in and with nature. This session will
   be followed by our AGM. "
 ---
-<iframe title='Donation form powered by Zeffy' style='position: absolute; border: 0; top:0;left:0;bottom:0;right:0;width:100%;height:100%' src='https://www.zeffy.com/en-CA/embed/ticketing/9dda98c1-fc90-4455-b5fe-0fbe7627fb76' allowpaymentrequest allowTransparency="true"></iframe>
+<div style="position:relative;overflow:hidden;width:100%;height:500px;padding-top:500px"><iframe title='Donation form powered by Zeffy' style='position: absolute; border: 0; top:0;left:0;bottom:0;right:0;width:100%;height:100%' src='https://www.zeffy.com/en-CA/embed/ticketing/9dda98c1-fc90-4455-b5fe-0fbe7627fb76' allowpaymentrequest allowTransparency="true"></iframe></div>
