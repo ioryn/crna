@@ -38,30 +38,17 @@ eleventyNavigation:
             <!-- ============================================ -->
             <!--                 Events                       -->
             <!-- ============================================ -->
-<!-- Debugging in any template -->
-
             {% if collections.events | length == 0 %}
                 <h1>No Recent Posts</h1>
             {% else %}
                 {%- for post in collections.events | reverse -%}
                     <article class="recent-articles">
-                        <!--Main Article Image-->
-                        <!-- <picture class="events-mainImage">
-                            <img
-                            src="{{ post.data.image }}"
-                            alt="{{ post.data.imageAlt }}"
-                            width="795"
-                            height="400"
-                            decoding="async" />
-                        </picture> -->
-                        <!--Article Info-->
                         <div class="article-group">
-                            <h2 class="events-h1">
-                                {{ post.data.title }} - 
-                                {{ post.date | postDate }}
+                            <h2 class="cs-topper">
+                                {{ post.data.title }}
                             </h2>
+                            <span class="cs-title">{{ post.date | postDate }}</span>
                             <p class="events-desc">
-                                {{ post.data.description }}
                                 {{ post.templateContent | safe }}
                             </p>
                         </div>
@@ -69,7 +56,17 @@ eleventyNavigation:
                 {%- endfor -%}
             {% endif %}
         </div>
-
     </div>
-{% include 'components/cta.html' %}
+
+    {% include 'components/cta.html' %}
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var iframes = document.querySelectorAll('iframe[src*="zeffy.com/en-CA/embed/ticketing"]');
+            iframes.forEach(function(iframe) {
+                iframe.style.height = '520px';
+            });
+        });
+    </script>
+        
 {% endblock %}
