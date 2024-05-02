@@ -38,6 +38,8 @@ eleventyNavigation:
             <!-- ============================================ -->
             <!--                 Events                       -->
             <!-- ============================================ -->
+<!-- Debugging in any template -->
+
             {% if collections.events | length == 0 %}
                 <h1>No Recent Posts</h1>
             {% else %}
@@ -58,15 +60,5 @@ eleventyNavigation:
         </div>
     </div>
 
-    {% include 'components/cta.html' %}
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var iframes = document.querySelectorAll('iframe[src*="zeffy.com/en-CA/embed/ticketing"]');
-            iframes.forEach(function(iframe) {
-                iframe.style.height = '520px';
-            });
-        });
-    </script>
-        
+{% include 'components/cta.html' %}
 {% endblock %}
