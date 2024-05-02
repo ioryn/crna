@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: ioryn/calgaryreggio
+  repo: ioryn/crna
   branch: main
 
 local_backend: true
