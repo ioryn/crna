@@ -23,8 +23,6 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    row-gap: 2.5rem;
   }
   #sbs .cs-left {
     /* scaling the font size with the view width */
@@ -136,6 +134,11 @@
     justify-content: space-between;
     gap: 3.25rem;
   }
+  #sbs .cs-reggio-container {
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 3.25rem;
+  }
   #sbs .cs-left {
     font-size: min(1.2vw, 1em);
     flex: none;
@@ -143,4 +146,15 @@
   #sbs .cs-right {
     margin: 0;
   }
+}
+.reggio-container {
+  margin: 5em 5em 5em 5em;
+}
+.cs-left-reggio {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.cs-right-reggio {
+  padding: 0 !important;
+  margin: 0 !important;
 }

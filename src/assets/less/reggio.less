@@ -26,8 +26,6 @@
             margin: auto;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            row-gap: (40/16rem);
         }
 
         .cs-left {
@@ -158,6 +156,12 @@
             gap: (52/16rem);
         }
 
+        .cs-reggio-container {
+            flex-flow: row;
+            justify-content: space-between;
+            gap: (52/16rem);
+        }
+
         .cs-left {
             font-size: ~"min(1.2vw, 1em)";
             flex: none;
@@ -167,4 +171,18 @@
             margin: 0;
         }
     }
+}
+
+.reggio-container{
+    margin: 5em 5em 5em 5em;
+}
+
+.cs-left-reggio {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.cs-right-reggio {
+    padding: 0 !important;
+    margin: 0 !important;
 }

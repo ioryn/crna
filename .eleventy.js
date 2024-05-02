@@ -27,26 +27,29 @@ module.exports = function (eleventyConfig) {
     // END PLUGINS
 
 
-    // Define the events collection
-    eleventyConfig.addCollection("events", function(collectionApi) {
-        return collectionApi.getFilteredByGlob("./src/content/events/*.md");
-    });
-
-    // Define the blog collection
-    eleventyConfig.addCollection("blog", function(collectionApi) {
-        return collectionApi.getFilteredByGlob("./src/content/blog/*.md");
-    });
-
-    // Define the jobs collection
-    eleventyConfig.addCollection("jobs", function(collectionApi) {
-        return collectionApi.getFilteredByGlob("./src/content/jobs/*.md");
-    });
-
-    // Define the resources collection
-    eleventyConfig.addCollection("resources", function(collectionApi) {
-        return collectionApi.getFilteredByGlob("./src/content/resources/*.md");
-    });
-
+    module.exports = function(eleventyConfig) {
+        // Universal permalink shortcode
+        eleventyConfig.addShortcode("permalink", function(title, date, collectionName) {
+            const formattedDate = this.date(date, "yyyyMMdd");
+            const slug = title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
+            return `/${collectionName}/${formattedDate}-${slug}/index.html`;
+        });
+    
+        // Define collections
+        eleventyConfig.addCollection("events", collectionApi => collectionApi.getFilteredByGlob("./src/content/events/*.md"));
+        eleventyConfig.addCollection("blog", collectionApi => collectionApi.getFilteredByGlob("./src/content/blog/*.md"));
+        eleventyConfig.addCollection("jobs", collectionApi => collectionApi.getFilteredByGlob("./src/content/jobs/*.md"));
+        eleventyConfig.addCollection("resources", collectionApi => collectionApi.getFilteredByGlob("./src/content/resources/*.md"));
+    
+        return {
+            dir: {
+                input: "src",
+                output: "public"
+            },
+            // Other configuration options...
+        };
+    };
+    
     eleventyConfig.addShortcode("youtube", (videoURL, title) => {
         const url = new URL(videoURL);
         const id = url.searchParams.get("v");

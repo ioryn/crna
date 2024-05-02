@@ -819,7 +819,7 @@ decamelize@^5.0.0:
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-5.0.1.tgz#db11a92e58c741ef339fb0a2868d8a06a9a7b1e9"
   integrity sha512-VfxadyCECXgQlkoEAjeghAr5gY3Hf+IKjKb+X8tGVDtveCjN+USwprd2q3QXBR9T1+x2DG0XZF5/w+7HAtSaXA==
 
-decap-server@^3.0.0:
+decap-server@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/decap-server/-/decap-server-3.0.4.tgz#a256281e0a328ac94b9a110fee7e9a77d9919f5a"
   integrity sha512-ziLH7cM8BzAxUkkKmDmtyHBYL5s8raOQ1eVxvUIVJRJpcEiy0b8er0eVMYwAPonCiXTC3B95C2CDNCh9oBRkFA==

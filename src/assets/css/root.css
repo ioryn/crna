@@ -22,7 +22,7 @@
   }
   .cs-topper {
     font-size: var(--topperFontSize);
-    line-height: 1.2em;
+    line-height: 1.4em;
     text-transform: uppercase;
     text-align: inherit;
     letter-spacing: 0.1em;
@@ -32,9 +32,9 @@
     display: block;
   }
   .cs-title {
-    font-size: var(--headerFontSize);
-    font-weight: 900;
-    line-height: 1.2em;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1em;
     text-align: inherit;
     max-width: 43.75rem;
     margin: 0 0 1rem 0;
@@ -1243,9 +1243,9 @@
     margin-left: 40px !important;
   }
 }
-/*-- -------------------------- -->
-<---    Final Call To Action    -->
-<--- -------------------------- -*/
+/*-- ------------------------------------>
+<---    Reggio Final Call To Action    -->
+<--- -----------------------------------*/
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #reggioemilia {
