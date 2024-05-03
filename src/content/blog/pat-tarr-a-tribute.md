@@ -1,7 +1,10 @@
 ---
 title: A Tribute to My Mentor Dr. Pat Tarr
-description: ;pojupo
-author: Sayward Wilkinson Blanc & Laurie Androsoff
+description: This article is written in recognition and appreciation of Pat's
+  tireless work with the Calgary Reggio Network. She has inspired so many
+  educators and I wanted to take this opportunity to honour her and
+  share  impact on me.
+author: Sayward Wilkinson Blanc
 date: 2024-05-04T00:00:32.832Z
 tags:
   - post
