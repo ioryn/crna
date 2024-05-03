@@ -7,7 +7,6 @@ const configSitemap = require("./src/config/sitemap");
 const configServer = require("./src/config/server");
 
 const filterPostDate = require("./src/config/postDate");
-const filterPostTime = require("./src/config/postTime");
 
 module.exports = function (eleventyConfig) {
     // EXTENSIONS - Recognising non-default languages as templates
@@ -54,12 +53,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "./src/robots.txt": "/robots.txt" });
 
     // FILTERS
-    eleventyConfig.addFilter("postDate", filterPostDate);
-    eleventyConfig.addFilter("postTime", function(time) {
-        console.log(time);  // Log the input to see what it's getting
-        return time;  // Just return the input for now
-    });
-    
+    eleventyConfig.addFilter("postDate", filterPostDate);    
 
     // SHORTCODES
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);

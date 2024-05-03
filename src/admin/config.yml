@@ -20,29 +20,8 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }
-      - label: "Event Date"
-        name: "date"
-        widget: "date"
-        time_format: false
-        date_format: true
-        format: "YYYY-MM-DD"
-
-      - label: "Start Time"
-        name: "start_time"
-        widget: "datetime"
-        time_format: true
-        date_format: false
-        format: "HH:mm"
-      
-
-      - label: "End Time"
-        name: "end_time"
-        widget: "datetime"
-        time_format: true
-        date_format: false
-        format: "HH:mm"
-       
-
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Time(s)", name: "times", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["event"] }  # Changed default tag to "event"
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }

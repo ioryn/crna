@@ -50,7 +50,7 @@ eleventyNavigation:
                                 <h2 class="cs-topper">
                                     {{ post.data.title }}
                                 </h2>
-                                <span class="cs-title">{{ post.date | postDate }} {{ post.data.start_time | postTime }} - {{ post.data.end_time | postTime }}</span>
+                                <span class="cs-title">{{ post.date | postDate }} - {{ post.data.times }}</span>
                                 <div id="container">&nbsp;</div> <!-- fix next build -->
                                 <article class="recent-articles">
                                     <div class="event-item">
@@ -68,24 +68,6 @@ eleventyNavigation:
                     {% endif %}
                 </div>
             </section>
-
-<!--             {% if collections.events | length == 0 %}
-                <h1>No Recent Posts</h1>
-            {% else %}
-                {%- for post in collections.events | reverse -%}
-                    <article class="recent-articles">
-                        <div class="article-group">
-                            <h2 class="cs-topper">
-                                {{ post.data.title }}
-                            </h2>
-                            <span class="cs-title">{{ post.date | postDate }}</span>
-                            <div class="event-description">
-                                {{ post.data.description }}
-                            </div>
-                        </div>
-                    </article>
-                {%- endfor -%}
-            {% endif %} -->
         </div>
     </div>
 
