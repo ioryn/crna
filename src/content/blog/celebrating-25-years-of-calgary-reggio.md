@@ -1,6 +1,11 @@
 ---
 title: Celebrating 25 Years of Calgary Reggio
-description: oioh
+description: "Since our inception in 1997 with  \"The Hundred Languages of
+  Children Exhibit\" until today, Calgary Reggio has been providing inspiration
+  and opportunities for collaboration and dialogue through exhibits, network
+  meetings, book studies, pop-up events and professional learning. As we mark 25
+  years of dedication to Calgary's educators and children, we continue to forge
+  pathways of possibilities together. "
 author: Karlee Zelmer
 date: 2024-05-03T04:38:03.472Z
 tags:
@@ -8,7 +13,7 @@ tags:
 image: /assets/images/upload/thumbnail_de-installing-installation-jubilee.jpeg
 imageAlt: Hundred Languages of Children Exhibit
 ---
-Since our inception in 1997 with  "The Hundred Languages of Children Exhibit" until today, Calgary Reggio has been providing inspiration and opportunities for collaboration and dialogue through exhibits, network meetings, book studies, pop-up events and professional learning. As we mark 25 years of dedication to Calgary's educators and children, we continue to forge pathways of possibilities together. 
+
 
 In celebration of this milestone, we're hosting an Anniversary Fundraising Dinner and Silent Auction, alongside a refreshing update to our branding, highlighted by the launch of this new website generously donated by Cory Zelmer. Currently, we're in the planning stages of developing novel opportunities to support our members exploration of the Reggio philosophy in our quest to re-imagine the educational landscape of Calgary.
 
