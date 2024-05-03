@@ -5,7 +5,7 @@ author: Sayward Wilkinson Blanc & Laurie Androsoff
 date: 2024-05-04T00:00:32.832Z
 tags:
   - post
-image: /assets/images/upload/img_7680-1-.jpg
+image: /assets/images/upload/pat2.jpg
 imageAlt: Pat Tarr
 ---
 reteatg
