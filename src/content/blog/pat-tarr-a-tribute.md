@@ -1,5 +1,5 @@
 ---
-title: A Tribute to My Mentor Dr. Pat Tarr
+title: A Tribute to my Mentor - Dr. Pat Tarr
 description: This article is written in recognition and appreciation of Pat's
   tireless work with the Calgary Reggio Network. She has inspired so many
   educators and I wanted to take this opportunity to honour her and
