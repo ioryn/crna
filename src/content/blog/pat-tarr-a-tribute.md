@@ -2,8 +2,8 @@
 title: A Tribute to my Mentor - Dr. Pat Tarr
 description: This article is written in recognition and appreciation of Pat's
   tireless work with the Calgary Reggio Network. She has inspired so many
-  educators and I wanted to take this opportunity to honour her and
-  share  impact on me.
+  educators and I wanted to take this opportunity to honour her and share her
+  impact on me.
 author: Sayward Wilkinson Blanc
 date: 2024-05-04T00:00:32.832Z
 tags:
