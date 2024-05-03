@@ -7,6 +7,7 @@ const configSitemap = require("./src/config/sitemap");
 const configServer = require("./src/config/server");
 
 const filterPostDate = require("./src/config/postDate");
+const filterPostTime = require("./src/config/postTime");
 
 module.exports = function (eleventyConfig) {
     // EXTENSIONS - Recognising non-default languages as templates
@@ -41,15 +42,6 @@ module.exports = function (eleventyConfig) {
         return collectionApi.getFilteredByGlob("./src/content/resources/*.md");
     });
 
-    eleventyConfig.addFilter("postTime", function(time) {
-        // Check if the input is a date object or not
-        if (time instanceof Date) {
-            return time.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
-        }
-        // If not a Date object, just return the input
-        return time;
-    });
-
     // PASSTHROUGHS - "Pass through" source files to /public, without being processed by eleventy
     eleventyConfig.addPassthroughCopy("./src/assets/css");
     eleventyConfig.addPassthroughCopy("./src/assets/favicons");
@@ -63,6 +55,15 @@ module.exports = function (eleventyConfig) {
 
     // FILTERS
     eleventyConfig.addFilter("postDate", filterPostDate);
+    eleventyConfig.addFilter("postTime", function(time) {
+        console.log("Time input to filter:", time); // Add this to see what you get
+        if (typeof time === 'string') {
+            let parsedTime = DateTime.fromFormat(time, "HH:mm");
+            return parsedTime.toLocaleString(DateTime.TIME_SIMPLE);
+        }
+        return time;
+    });
+    
 
     // SHORTCODES
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
