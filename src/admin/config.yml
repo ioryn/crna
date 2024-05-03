@@ -25,6 +25,10 @@ collections:
         widget: "datetime"
         time_format: false # Disables time selection
         format: "YYYY-MM-DD" # Specifies date format without time
+        - label: "Time(s)"
+        name: "times"
+        widget: "string"
+        required: false
       - { label: "Tags", name: "tags", widget: "list", default: ["event"] }  # Changed default tag to "event"
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
