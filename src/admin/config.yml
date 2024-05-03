@@ -33,6 +33,7 @@ collections:
         time_format: true
         date_format: false
         format: "HH:mm"
+        default: "12:00"
 
       - label: "End Time"
         name: "end_time"
@@ -40,6 +41,7 @@ collections:
         time_format: true
         date_format: false
         format: "HH:mm"
+        default: "12:00"
 
       - { label: "Tags", name: "tags", widget: "list", default: ["event"] }  # Changed default tag to "event"
       - { label: "Featured Image", name: "image", widget: "image" }
