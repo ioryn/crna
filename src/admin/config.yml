@@ -20,13 +20,27 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }
-      - label: "Date"
+      - label: "Event Date"
         name: "date"
+        widget: "date"
+        time_format: false
+        date_format: true
+        format: "YYYY-MM-DD"
+
+      - label: "Start Time"
+        name: "start_time"
         widget: "datetime"
-        format: "YYYY-MM-DD HH:mm"  # Custom format, adjust accordingly
-        time_format: true  # Enables time selection
-        date_format: true  # Enables date selection
-        picker_utc: false  # Set to true if you want to use UTC time
+        time_format: true
+        date_format: false
+        format: "HH:mm"
+
+      - label: "End Time"
+        name: "end_time"
+        widget: "datetime"
+        time_format: true
+        date_format: false
+        format: "HH:mm"
+
       - { label: "Tags", name: "tags", widget: "list", default: ["event"] }  # Changed default tag to "event"
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
@@ -57,7 +71,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["jobs"] }  # Changed default tag to "jobs"
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "PDF", name: "pdf", widget: "file", allow_multiple: false, media_library: { config: { filter: { type: "file", patterns: ["*.pdf"] } } } }
+      
 
   - name: "resources"
     label: "Resources"
