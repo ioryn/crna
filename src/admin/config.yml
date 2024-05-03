@@ -25,7 +25,7 @@ collections:
         widget: "datetime"
         time_format: false # Disables time selection
         format: "YYYY-MM-DD" # Specifies date format without time
-        - label: "Time(s)"
+      - label: "Time(s)"
         name: "times"
         widget: "string"
         required: false
