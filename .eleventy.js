@@ -41,6 +41,15 @@ module.exports = function (eleventyConfig) {
         return collectionApi.getFilteredByGlob("./src/content/resources/*.md");
     });
 
+    eleventyConfig.addFilter("postTime", function(time) {
+        // Check if the input is a date object or not
+        if (time instanceof Date) {
+            return time.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+        }
+        // If not a Date object, just return the input
+        return time;
+    });
+
     // PASSTHROUGHS - "Pass through" source files to /public, without being processed by eleventy
     eleventyConfig.addPassthroughCopy("./src/assets/css");
     eleventyConfig.addPassthroughCopy("./src/assets/favicons");
