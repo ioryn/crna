@@ -1,7 +1,7 @@
 ---
 title: Learning In and With Nature & AGM
 link: https://www.zeffy.com/en-CA/ticketing/8a1455f1-bf7c-4dfa-af07-cc985c01fb88
-date: 2024-06-01T16:00:37.684Z
+date: 2024-06-01
 start_time: 10:01
 end_time: 12:00
 tags:
