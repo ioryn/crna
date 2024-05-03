@@ -50,6 +50,7 @@ eleventyNavigation:
                                 {{ post.data.title }}
                             </h2>
                             <span class="cs-title">{{ post.date | postDate }}</span>
+                            <div id="container">&nbsp;</div> <!-- fix next build -->
                             <section id="jobs-content">
                                 {{ post.templateContent | safe }}
                             </section>

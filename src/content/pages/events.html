@@ -38,9 +38,38 @@ eleventyNavigation:
             <!-- ============================================ -->
             <!--                 Events                       -->
             <!-- ============================================ -->
-<!-- Debugging in any template -->
+            
+            <section id="eventspage">
+                <div class="container">
+                    {% if collections.events | length == 0 %}
+                        <h1>No Recent Posts</h1>
+                    {% else %}
+                        {% set counter = 0 %}
+                        {%- for post in collections.events | reverse -%}
+                            {% if counter < 2 %}
+                                <h2 class="cs-topper">
+                                    {{ post.data.title }}
+                                </h2>
+                                <span class="cs-title">{{ post.date | postDate }}</span>
+                                <div id="container">&nbsp;</div> <!-- fix next build -->
+                                <article class="recent-articles">
+                                    <div class="event-item">
+                                        <a class="event-image" href="{{ post.data.link }}">
+                                            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" decoding="async" />
+                                        </a>
+                                        <div class="event-description">
+                                            {{ post.data.description }}
+                                        </div>
+                                    </div>
+                                </article>
+                                {% set counter = counter + 1 %}
+                            {% endif %}
+                        {%- endfor -%}
+                    {% endif %}
+                </div>
+            </section>
 
-            {% if collections.events | length == 0 %}
+<!--             {% if collections.events | length == 0 %}
                 <h1>No Recent Posts</h1>
             {% else %}
                 {%- for post in collections.events | reverse -%}
@@ -50,13 +79,13 @@ eleventyNavigation:
                                 {{ post.data.title }}
                             </h2>
                             <span class="cs-title">{{ post.date | postDate }}</span>
-                            <p class="evensts-desc">
-                                {{ post.templateContent | safe }}
-                            </p>
+                            <div class="event-description">
+                                {{ post.data.description }}
+                            </div>
                         </div>
                     </article>
                 {%- endfor -%}
-            {% endif %}
+            {% endif %} -->
         </div>
     </div>
 

@@ -1173,6 +1173,83 @@
 }
 /* Consider adding additional media queries if necessary for very large screens */
 /*-- ------------------------------------>
+<---           /Events                 -->
+<--- -----------------------------------*/
+#eventspage {
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+}
+#eventspage:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+}
+#eventspage .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#eventspage .recent-articles {
+  width: 100%;
+  /* Full width on smaller screens */
+  border: 1px solid #8ACCCE;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 4em;
+}
+@media (min-width: 768px) {
+  #eventspage .recent-articles {
+    /* Change to a larger min-width if needed */
+    flex: 1 0 48%;
+    /* Flex basis set to 48% to ensure two boxes per line */
+  }
+}
+#eventspage .recent-articles .event-item {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  #eventspage .recent-articles .event-item {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+#eventspage .recent-articles .event-item .event-image {
+  width: 100%;
+  height: 300px;
+  /* Maintains aspect ratio */
+}
+#eventspage .recent-articles .event-item .event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  #eventspage .recent-articles .event-item .event-image {
+    width: 200px;
+    /* Width for larger screens */
+    flex: 0 0 300px;
+    /* Flex-basis as 200px to maintain size */
+  }
+}
+#eventspage .recent-articles .event-item .event-description {
+  flex-grow: 1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+/*-- ------------------------------------>
 <---    Reggio Final Call To Action    -->
 <--- -----------------------------------*/
 /* Mobile */
