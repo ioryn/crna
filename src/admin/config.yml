@@ -20,7 +20,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
       - label: "Date"
           name: "date"
           widget: "datetime"
