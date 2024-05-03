@@ -8,10 +8,10 @@ tags:
 image: /assets/images/upload/thumbnail_de-installing-installation-jubilee.jpeg
 imageAlt: Hundred Languages of Children Exhibit
 ---
-From "The Hundred Languages of Children Exhibit" in 1997 until today Calgary Reggio has been providing inspiration and opportunities for collaboration and dialogue through exhibits, network meetings, book studies, pop-up events and professional learning.
+Since our inception in 1997 with  "The Hundred Languages of Children Exhibit" until today, Calgary Reggio has been providing inspiration and opportunities for collaboration and dialogue through exhibits, network meetings, book studies, pop-up events and professional learning. As we mark 25 years of dedication to Calgary's educators and children, we continue to forge pathways of possibilities together. 
 
-As we celebrate 25 years of service for Calgary's educators and children we continue to forge pathways of possibilities together. We are marking this event with an Anniversary Fundraising Dinner, Silent Auction and a revamp of our branding including the creation of this new website generously donated by Cory Zelmer. We currently in the planning stages of developing new and exciting opportunities to support our members as we explore the Reggio philosophy and how we can continually re-imagine the field of education.
+In celebration of this milestone, we're hosting an Anniversary Fundraising Dinner and Silent Auction, alongside a refreshing update to our branding, highlighted by the launch of this new website generously donated by Cory Zelmer. Currently, we're in the planning stages of developing novel opportunities to support our members exploration of the Reggio philosophy in our quest to re-imagine the educational landscape of Calgary.
 
-One of the projects we are engaging in is co-creating  a creative recycling centre along with Common Digs Inc., modelled after Remida, the REimagine Centre. This new space will hold a materials museum, artist studio, event/exhibition space as well as a laboratory preschool classroom to see the Reggio Emilia Approach come to life.   
+We're currently involved in a collaborative project to co-create the REimagine Centre, a creative recycling centre, in partnership with Common Digs Inc. This initiative is inspired by Reggio Emilia's Remida and aims to reimagine how we utilize resource and foster creativity within our community. This innovative space will encompass a materials museum, artist studios, event/exhibition space as well as a laboratory preschool classroom where the Reggio Emilia Approach will be vividly brought to life.   
 
-We can't wait to continue our journey and hope that you will join us for another 25 years!
+We're thrilled to embark on this continued journey and  extend a warm invitation for you to join us for the next 25 years of growth, learning and joy!
