@@ -2,6 +2,7 @@
 title: Making the Space for Joy
 link: https://www.zeffy.com/en-CA/ticketing/536f8eb4-d188-4473-8b69-3e5675ce44af
 date: 2024-05-04T05:09:26.414Z
+times: ""
 tags:
   - event
 image: /assets/images/upload/make-space-for-joy-1-.jpg
