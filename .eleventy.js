@@ -56,12 +56,8 @@ module.exports = function (eleventyConfig) {
     // FILTERS
     eleventyConfig.addFilter("postDate", filterPostDate);
     eleventyConfig.addFilter("postTime", function(time) {
-        console.log("Time input to filter:", time); // Add this to see what you get
-        if (typeof time === 'string') {
-            let parsedTime = DateTime.fromFormat(time, "HH:mm");
-            return parsedTime.toLocaleString(DateTime.TIME_SIMPLE);
-        }
-        return time;
+        console.log(time);  // Log the input to see what it's getting
+        return time;  // Just return the input for now
     });
     
 
