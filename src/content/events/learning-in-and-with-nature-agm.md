@@ -10,5 +10,5 @@ imageAlt: Learning In and With Nature
 description: In nature, we build on the capable image of the child through
   authentic, meaningful learning and dialogue. Come and forge new pathways of
   possibilities together with us, learning in and with nature. This session will
-  be followed by our AGM.
+  include our AGM.
 ---
