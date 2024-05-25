@@ -1,7 +1,7 @@
 ---
 title: “Children Are Citizens”
 link: https://calgaryreggio.org/blog/children-are-citizens-june-18/
-date: 2024-06-18
+date: 2024-05-24
 times: 11 am
 tags:
   - event
