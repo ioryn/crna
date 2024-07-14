@@ -1,6 +1,6 @@
 ---
 title: Loris Malaguzzi's Legacy
-description: s many educators have a break during the summer months in Canada,
+description: As many educators have a break during the summer months in Canada,
   we at the Calgary Reggio Network want to take this time to focus on Loris
   Malaguzzi and his enduring legacy.
 author: Malhora Mulhurn
