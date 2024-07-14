@@ -12,8 +12,12 @@ imageAlt: Loris Malaguzzi
 ---
 As many educators have a break during the summer months in Canada, we at the Calgary Reggio Network want to take this time to focus on Loris Malaguzzi  (the founder of the Reggio Approach) and his enduring legacy. 
 
-Please check out our Instagram or Twitter/X socials this summer. New inspiration drops every Sunday!
+Please check out our Instagram or Twitter/X socials (@calgaryreggio) this summer. New inspiration drops every Sunday!
 
 [Click here for Instagram](https://www.instagram.com/calgaryreggio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==) 
 
 [Click here for Twitter/X](https://x.com/calgaryreggio)
+
+\#ReggioYYC #LorisMalaguzzi #ReggioApproach #ReggioInspired #colearners 
+
+[](https://x.com/calgaryreggio)
