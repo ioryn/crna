@@ -4,7 +4,7 @@ link: https://www.zeffy.com/ticketing/4e0b4731-3cc2-49ab-8e9a-9e531e9b772f
 date: 2024-07-19
 tags:
   - event
-image: /assets/images/upload/reggio-book-club.jpg
+image: /assets/images/upload/reggio-book-club-1-.jpg
 imageAlt: Role of Pedagogista
 description: "Join us online for our book study on The Role of the Pedagogista
   in Reggio Emilia: Voices and Ideas for a Dialectic Educational Experience.
