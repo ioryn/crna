@@ -46,24 +46,21 @@ eleventyNavigation:
                     {% else %}
                         {% set counter = 0 %}
                         {%- for post in collections.events | reverse -%}
-                            {% if counter < 2 %}
-                                <h2 class="cs-topper">
-                                    {{ post.data.title }}
-                                </h2>
-                                <span class="cs-title">{{ post.date | postDate }} {{ post.data.times }}</span>
-                                <div id="container">&nbsp;</div> <!-- fix next build -->
-                                <article class="recent-articles">
-                                    <div class="event-item">
-                                        <a class="event-image" href="{{ post.data.link }}">
-                                            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" decoding="async" />
-                                        </a>
-                                        <div class="event-description">
-                                            {{ post.data.description }}
-                                        </div>
+                            <h2 class="cs-topper">
+                                {{ post.data.title }}
+                            </h2>
+                            <span class="cs-title">{{ post.date | postDate }} {{ post.data.times }}</span>
+                            <div id="container">&nbsp;</div> <!-- fix next build -->
+                            <article class="recent-articles">
+                                <div class="event-item">
+                                    <a class="event-image" href="{{ post.data.link }}">
+                                        <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" decoding="async" />
+                                    </a>
+                                    <div class="event-description">
+                                        {{ post.data.description }}
                                     </div>
-                                </article>
-                                {% set counter = counter + 1 %}
-                            {% endif %}
+                                </div>
+                            </article>
                         {%- endfor -%}
                     {% endif %}
                 </div>
