@@ -1,7 +1,7 @@
 ---
 title: Thinking Together Mentorship Program
 link: https://docs.google.com/forms/d/e/1FAIpQLSePcImZfhPxmXJ_DBRKgDHqN3yd9-Lr0MUyu_GtiAR4_n-6Aw/viewform
-date: 2024-09-12
+date: 2024-08-28
 tags:
   - event
 image: /assets/images/upload/team-photo-work-and-collaboration-corporate-canva-banner.jpg
