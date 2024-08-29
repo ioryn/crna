@@ -1,6 +1,6 @@
 ---
 title: Thinking Together Mentorship Program
-link: https://docs.google.com/forms/d/e/1FAIpQLSePcImZfhPxmXJ_DBRKgDHqN3yd9-Lr0MUyu_GtiAR4_n-6Aw/viewform
+link: https://calgaryreggio.org/blog/thinking-together-mentorship-program/
 date: 2024-09-12
 tags:
   - event
