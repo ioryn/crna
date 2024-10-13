@@ -5,7 +5,7 @@ date: 2024-11-02
 times: 10:00 AM - 12:00 PM
 tags:
   - event
-image: /assets/images/upload/reimagining-education-2-.jpg
+image: /assets/images/upload/reimagining-education-4-.jpg
 imageAlt: Workshop Series
 description: "REinvigorate your practice as you learn about Reggio principles,
   creative reuse and waste pedagogies. Visit inspiring spaces, explore creative
