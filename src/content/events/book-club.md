@@ -9,5 +9,6 @@ imageAlt: Role of Pedagogista
 description: "Join us online for our ongoing book study on The Role of the
   Pedagogista in Reggio Emilia: Voices and Ideas for a Dialectic Educational
   Experience. Feel free to join all sessions or just pop in for a chapter or two
-  as each chapter is a separate essay."
+  as each chapter is a separate essay. Oct 28 (Chapter 7), Nov 18 (Chapter 8),
+  Dec 9 (Chapter 9)"
 ---
