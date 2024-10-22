@@ -1,7 +1,7 @@
 ---
 title: Book Club
 link: https://www.zeffy.com/ticketing/4e0b4731-3cc2-49ab-8e9a-9e531e9b772f
-date: 2024-07-19
+date: 2024-10-28
 tags:
   - event
 image: /assets/images/upload/reggio-book-club-2-.jpg
