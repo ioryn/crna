@@ -2,6 +2,7 @@
 title: Book Club
 link: https://www.zeffy.com/ticketing/calgary-reggio-book-club
 date: 2025-02-03
+times: 7 PM
 tags:
   - event
 image: /assets/images/upload/untitled-design-1-.jpg
