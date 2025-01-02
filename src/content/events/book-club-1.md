@@ -1,5 +1,5 @@
 ---
-title: Book Club
+title: Encounters with Materials Book Club
 link: https://www.zeffy.com/ticketing/calgary-reggio-book-club
 date: 2025-02-03
 times: 7 PM
