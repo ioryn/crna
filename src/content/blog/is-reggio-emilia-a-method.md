@@ -17,3 +17,5 @@ In the words of the educators of Reggio Emilia, “The Reggio Emilia Approach is
 Reference:
 
 Reggio Children: <https://www.reggiochildren.it/reggio-emilia-approach/> (retrived 2025/01/02)
+
+![Reggio Children Resources](/assets/images/upload/whatsapp-image-2024-10-21-at-10.57.31-am.jpeg "Reggio Children Resources")
