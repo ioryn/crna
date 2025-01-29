@@ -5,7 +5,7 @@ date: 2025-02-12
 times: 6 PM - 8 PM
 tags:
   - event
-image: /assets/images/upload/potential-of-plastics-2-.jpg
+image: /assets/images/upload/potential-of-plastics-3-.jpg
 imageAlt: Second Date Potential of Plastics
 description: Limited tickets available for this second session on the Potential
   of Plastics with Dr. Alex Berry. How might early childhood education inherit
