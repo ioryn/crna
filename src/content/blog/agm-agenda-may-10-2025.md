@@ -3,7 +3,7 @@ title: AGM Agenda- May 10, 2025
 description: "Here is our agenda for our AGM held along with our Wonders of
   Waste workshop on May 10. "
 author: Karlee Zelmer
-date: 2025-04-17T02:19:16.944Z
+date: 2025-04-18T02:19:16.944Z
 tags:
   - post
 image: /assets/images/upload/logo-light-wide.svg
