@@ -6,7 +6,7 @@ author: Karlee Zelmer
 date: 2025-04-18T02:19:16.944Z
 tags:
   - post
-image: /assets/images/upload/logo-light-wide.svg
+image: /assets/images/upload/2025-may-10-1000-am.png
 imageAlt: Calgary Reggio AGM
 ---
 # AGENDA- Annual General Meeting
