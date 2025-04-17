@@ -7,16 +7,11 @@ tags:
   - event
 image: /assets/images/upload/wonder-of-waste-1-.jpg
 imageAlt: Wonder of Waste
-description: Reimagine waste as a creative material in this hands-on workshop
-  focused on education for sustainability. Educators will explore how everyday
-  waste materials can become powerful tools for creativity and
-  self-expression.  Led by artist and educator Jenny Dale Stables, participants
-  will investigate the properties and possibilities of waste materials and found
-  objects. Participants will experience how creating with these materials
-  fosters problem-solving, collaboration, and personal expression. They will be
-  asked to further consider how their creations interact and thrive together,
-  fostering a deeper understanding of teamwork and community.  This workshop
-  highlights the educator's role in guiding exploration, encouraging dialogue,
-  and nurturing meaningful connections between students and their environment
-  through creative expression.
+description: Join artist-educator Jenny Dale Stables and investigate the
+  properties and possibilities of waste materials and found objects. Experience
+  how creating with these materials fosters problem-solving, collaboration, and
+  personal expression. Consider how creations interact and thrive together, and
+  explore the educator’s role in guiding exploration, encouraging dialogue and
+  nurturing connections.   Presented in partnership with Common Digs at our new
+  REimagine Centre!
 ---
