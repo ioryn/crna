@@ -5,7 +5,7 @@ date: 2025-05-10
 times: 10 Am- 12:30 PM
 tags:
   - event
-image: /assets/images/upload/wonder-of-waste.jpg
+image: /assets/images/upload/wonder-of-waste-1-.jpg
 imageAlt: Wonder of Waste
 description: Reimagine waste as a creative material in this hands-on workshop
   focused on education for sustainability. Educators will explore how everyday
