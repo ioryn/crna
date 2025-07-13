@@ -8,19 +8,19 @@ tags:
 
 **“Every child’s first instinct is to love…imagine a world that cherishes that instinct!"**
 
-
+<br/>
 
 Heartland Agency offers holistic services to children and their families that supports the growth and development of their social-emotional and learning needs within a centre-based setting. Our work is grounded in the Reggio Emilia philosophy, and we believe in the power of relationships, the hundred languages of children, and the co-construction of knowledge through a reflective and collaborative approach. 
-
+<br/>
 
 
 We are seeking an experienced and passionate part-time **Pedagogista** to guide and support the ongoing development and implementation of Reggio Emilia-inspired practices across our program. This individual will work closely with the Education Coordinator, teachers, educational assistants, therapists and administrators to foster a culture of reflective practice, documentation, inquiry and collaboration. 
-
+<br/>
 
 
 This position will begin in mid-August, and is based out of our Mayland Heights location (1625 18th Street NE) with travel to other sites. 
 
-
+<br/>
 
 **Key Responsibilities:**
 
@@ -32,7 +32,7 @@ This position will begin in mid-August, and is based out of our Mayland Heights 
 * Engage in continuous learning and research, bringing current pedagogical insights into the learning community
 * Promote interdisciplinary collaboration across teaching and therapeutic staff
 * Share the Reggio Emilia philosophy through internal presentations, resources and correspondence
-
+<br/>
 
 
 **Qualifications and Requirements:**
@@ -44,6 +44,6 @@ This position will begin in mid-August, and is based out of our Mayland Heights 
 * Excellent communication, collaboration and facilitation skills 
 * Ability to mentor and support educators and teams with sensitivity, curiosity and depth
 
-
+<br/>
 
 Interested applicants are encouraged to submit an updated resume and cover letter via email, highlighting specific training and experience that would make you an ideal candidate for the position. We thank all applicants in advance for their interest, however only those selected for an interview will be contacted. Please email your resume and cover letter to: Brianna Parkhill *bparkhill@heartlandagency.org*
