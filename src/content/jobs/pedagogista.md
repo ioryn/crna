@@ -20,6 +20,8 @@ We are seeking an experienced and passionate part-time **Pedagogista** to guide 
 
 This position will begin in mid-August, and is based out of our Mayland Heights location (1625 18th Street NE) with travel to other sites. 
 
+
+
 **Key Responsibilities:**
 
 * Provide pedagogical leadership grounded in the Reggio Emilia approach
@@ -31,6 +33,8 @@ This position will begin in mid-August, and is based out of our Mayland Heights 
 * Promote interdisciplinary collaboration across teaching and therapeutic staff
 * Share the Reggio Emilia philosophy through internal presentations, resources and correspondence
 
+
+
 **Qualifications and Requirements:**
 
 * Minimum of 5 years of experience in early childhood education with a strong background in the Reggio Emilia approach; formal education in Early Childhood Education, Special Education, Educational Leadership or a related field is an asset
@@ -39,8 +43,6 @@ This position will begin in mid-August, and is based out of our Mayland Heights 
 * Experience working in inclusive or early intervention settings preferred
 * Excellent communication, collaboration and facilitation skills 
 * Ability to mentor and support educators and teams with sensitivity, curiosity and depth
-
-
 
 
 
