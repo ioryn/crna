@@ -1,6 +1,6 @@
 ---
 title: Slow Knowledge and the Unhurried Child Book Club
-link: https://www.zeffy.com/en-CA/ticketing/slow-knowledge-and-the-unhurried-child-book-club
+link: https://www.zeffy.com/en-CA/ticketing/calgary-reggio-book-club
 date: 2025-09-30
 tags:
   - event
