@@ -6,6 +6,8 @@ tags:
 ---
 Little Heartprints Academy is a nurturing daycare inspired by Montessori and Reggio educational philosophies. We are dedicated to providing individualized programming for children aged 19 months to 4.5 years, fostering their growth and development in a supportive environment.
 
+
+
 **Summary**
 
 We are seeking a passionate and experienced Preschool teacher to join our team at Little Heartprints Academy. In this role, you will create a stimulating learning environment that encourages exploration and creativity while supporting the unique developmental needs of each child.
@@ -21,18 +23,24 @@ We are seeking a passionate and experienced Preschool teacher to join our team a
 * Encourage socialization and cooperation among children through group activities.
 * Maintain a clean and organized classroom that promotes learning and exploration.
 
+
+
 **Requirements:**
 
 * Level 3 child care supervisor certification
 * Criminal record check with vulnerable sector
-*  Standard Childcare First Aid and CPR: focus on injury and illnesses (has to be up to date)
+* Standard Childcare First Aid and CPR: focus on injury and illnesses (has to be up to date)
 * Experience working with young children in an educational setting is essential.
 * Work in a classroom of 8 children with afternoon teacher support.
 * Strong communication skills in English; bilingualism is an asset.
 * Knowledge of special education practices is a plus.
 * Ability to create engaging lesson plans that cater to diverse learning styles.
 
+
+
 This is a wonderful opportunity to work closely with a Reggio Emilia specialist with over 20 years of expertise, who will mentor and support you in developing and enriching your classroom program through the Reggio Emilia philosophy.
+
+
 
 In this role, you’ll gain valuable hands-on experience in child-led learning, with a strong focus on observing, documenting, and planning meaningful activities tailored to each child's development. Daily collaboration with a dedicated team of educators and ongoing communication with families through shared documentation will be essential components of your work.
 
@@ -69,9 +77,9 @@ Looking for someone that:
 
 This is a full time position from: Monday- Friday, 7:30-3:30 OR 8:00am-4:00pm
 
+
+
 If you are excited about shaping young minds and making a difference in their lives, we invite you to apply today to join our dedicated team at Little Heartprints Academy! Contact Doreen if this sounds like a great opportunity for you!
-
-
 
 ### Doreen Ng
 
@@ -80,8 +88,6 @@ Owner/Director & Early Childhood specialist
 Little Heartprints Academy Inc. Marda Loop 
 
 Little Heartprints Academy II Inc. Richmond
-
-
 
 (825) 509-3155
 
