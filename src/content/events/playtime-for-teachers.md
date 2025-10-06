@@ -1,7 +1,8 @@
 ---
 title: Playtime for Teachers
 link: https://www.zeffy.com/en-CA/ticketing/playtime-for-teachers
-date: 2025-10-05
+date: 2025-10-15
+times: 12:30 -2:30 PM
 tags:
   - event
 image: /assets/images/upload/playtime-for-teachers-post-1-.jpg
