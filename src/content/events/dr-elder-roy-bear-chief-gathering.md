@@ -4,7 +4,7 @@ link: https://www.commondigs.com/shop/a-gathering-with-dr-elder-roy-bear-chief
 date: 2026-01-15
 tags:
   - event
-image: /assets/images/upload/gathering.png
+image: /assets/images/upload/gathering-with-dr.-elder-roy-bear-chief.jpg
 imageAlt: Gathering with Dr. Elder Roy Bear Chief of the Blackfoot Confederacy
 description: " Attendees are invited to enter into a small group learning
   encounter, led by Dr. Elder Roy Bear Chief, where story, land, relation, and
