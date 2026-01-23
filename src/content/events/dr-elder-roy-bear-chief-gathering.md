@@ -1,7 +1,8 @@
 ---
 title: "Dr. Elder Roy Bear Chief Gathering "
 link: https://www.commondigs.com/shop/a-gathering-with-dr-elder-roy-bear-chief
-date: 2026-01-15
+date: 2026-02-05
+times: 5:30 PM
 tags:
   - event
 image: /assets/images/upload/gathering-with-dr.-elder-roy-bear-chief-1-.jpg
