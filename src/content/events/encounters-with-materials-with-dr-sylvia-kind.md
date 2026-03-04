@@ -7,14 +7,11 @@ tags:
   - event
 image: /assets/images/upload/encounters-with-materials-exhibit-2.png
 imageAlt: '"Encounters with Materials" Exhibit and Workshops'
-description: Save the dates! Participants will explore and interact with the
-  Exhibit Encounters With Materials and take part in workshops led by Dr. Sylvia
-  Kind. Through collective experimentation, discussion, presentations, and
-  documentation practices, we will examine the dynamic interplay between art and
-  materiality, and consider ways of engaging with children in relational making
-  processes. Working collaboratively with materials—composing and re-composing
-  together—we will explore artful ways of moving, thinking, and experimenting.
-  Materials are lively and participatory; they spark questions, generate ideas,
-  and shape unfolding events. By co-responding with materials, we attend to
-  their vibrancy, rhythms, and the possibilities they bring to our shared work.
+description: Save the dates! Participants will explore the Encounters With
+  Materials exhibit, take part in workshops led by Dr. Sylvia Kind, and
+  collaboratively investigate how art and materiality intersect through
+  experimentation, discussion, presentation, and documentation. Together, we
+  will engage with the lively, participatory nature of materials—co-responding
+  with their vibrancy, rhythms, and possibilities as we compose, move, think,
+  and make in relationship with children.
 ---
