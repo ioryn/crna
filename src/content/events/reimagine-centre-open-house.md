@@ -1,7 +1,7 @@
 ---
 title: Creative Reuse Open House
 link: https://www.creativereusecalgary.com/store
-date: 2026-06-06
+date: 2026-03-07
 times: 1:00 - 2:30pm
 tags:
   - event
