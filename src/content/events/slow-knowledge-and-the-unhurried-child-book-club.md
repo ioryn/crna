@@ -1,11 +1,11 @@
 ---
 title: Slow Knowledge and the Unhurried Child Book Club
 link: https://www.zeffy.com/en-CA/ticketing/calgary-reggio-book-club
-date: 2026-06-01
+date: 2026-04-06
 tags:
   - event
 image: /assets/images/upload/bookclub.jpg
-imageAlt: 2025 Book Club
+imageAlt: 2025 -2026 Book Club
 description: Our Book Club pick for Fall 2025 is Slow Knowledge and the
   Unhurried Child by Allison Clark. We meet on the first Monday of each month
   (Feb 2, Mar 2, Apr 6, May 4, Jun 1).  Together we will share ideas and
