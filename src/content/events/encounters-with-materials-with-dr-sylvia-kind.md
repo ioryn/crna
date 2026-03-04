@@ -1,11 +1,11 @@
 ---
 title: Encounters with Materials with Dr. Sylvia Kind
 link: https://www.encounterswithmaterials.com/exhibit
-date: 2026-05-01
+date: 2026-05-03
 times: ""
 tags:
   - event
-image: /assets/images/upload/encounters-with-materials-exhibit.png
+image: /assets/images/upload/encounters-with-materials-exhibit-2.png
 imageAlt: '"Encounters with Materials" Exhibit and Workshops'
 description: Save the dates! Participants will explore and interact with the
   Exhibit Encounters With Materials and take part in workshops led by Dr. Sylvia
