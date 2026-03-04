@@ -1,7 +1,7 @@
 ---
 title: Encounters with Materials with Dr. Sylvia Kind
 link: https://www.encounterswithmaterials.com/exhibit
-date: 2026-05-03
+date: 2026-05-01
 times: ""
 tags:
   - event
