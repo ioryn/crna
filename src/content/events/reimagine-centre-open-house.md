@@ -5,7 +5,7 @@ date: 2026-04-11
 times: 1:00 - 2:30pm
 tags:
   - event
-image: /assets/images/upload/open-house.png
+image: /assets/images/upload/encounters-with-materials-exhibit-4.png
 imageAlt: Creative Reuse Project Open House
 description: "Are you interested in learning more about the Creative Reuse
   Project? Would you like to learn more about memberships and see the materials
