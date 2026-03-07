@@ -1,11 +1,11 @@
 ---
 title: Encounters with Materials with Dr. Sylvia Kind
-link: https://www.encounterswithmaterials.com/exhibit
+link: https://www.zeffy.com/en-CA/ticketing/encounters-with-materials-artful-pedagogies-materialities-and-co-compositions
 date: 2026-05-01
 times: ""
 tags:
   - event
-image: /assets/images/upload/encounters-with-materials-exhibit-2.png
+image: /assets/images/upload/encounters_with_materials.png
 imageAlt: '"Encounters with Materials" Exhibit and Workshops'
 description: Save the dates! Participants will explore the exhibit, take part in
   workshops led by Dr. Kind, and collaboratively explore how art and materials
