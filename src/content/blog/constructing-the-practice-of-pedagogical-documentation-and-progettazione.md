@@ -3,7 +3,7 @@ title: Constructing the Practice of Pedagogical Documentation and Progettazione
 description: Deepening our understanding of pedagogical documentation and
   progettazione through dialogue and reflective practice
 author: Fabiola Barrios salas
-date: 2026-03-15T02:12:38.518Z
+date: 2026-03-20T02:12:38.518Z
 tags:
   - post
 image: /assets/images/upload/whatsapp-image-2026-03-16-at-10.48.34-am.jpeg
