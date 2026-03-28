@@ -1,5 +1,5 @@
 ---
-title: Reimagining Education Reggio, Refuse & Reuse
+title: Reimagining Education Reggio, Refuse & Reuse Workshop Series
 link: https://www.zeffy.com/ticketing/a2d25331-0286-4fd6-aab2-f06c5f4d2194
 date: 2024-11-02
 tags:
