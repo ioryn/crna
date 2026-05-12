@@ -7,6 +7,6 @@ tags:
   - event
 image: /assets/images/upload/calgary-reggio-network.png
 imageAlt: save the date
-description: Our Annual General Meeting will be held on the morning of May
-  30th.  Location and registration information will be made available shortly.
+description: Our Annual General Meeting will be held on May 30th.  Location and
+  registration information will be made available shortly.
 ---
