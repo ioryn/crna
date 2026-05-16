@@ -9,8 +9,5 @@ image: /assets/images/upload/img_3671.jpeg
 imageAlt: CRN AGM 2026 and Clay Conversations
 description: " Join us for our AGM and we invite our community members back into
   relationship with clay — not simply as a material to use, but as a material
-  that asks something of us in return. Gathering together on the land, we will
-  revisit our encounters with clay through dialogue, making, and reflection,
-  while thinking deeply about what it means to work pedagogically with materials
-  in our own context here in Calgary and Treaty 7 territory."
+  that asks something of us in return..."
 ---
