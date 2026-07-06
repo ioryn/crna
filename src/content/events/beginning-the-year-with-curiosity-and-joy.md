@@ -8,6 +8,6 @@ tags:
 image: /assets/images/upload/curiosity-and-joy-image.png
 imageAlt: Inspiring Curiosity and Joy in our elementary classrooms
 description: How can we, as Elementary Educators, inspire Curiosity and Joy in
-  our classrooms? Please join us for this informal gathering to share ideas and
-  inspirations as we start this new year.
+  our classrooms? Please join us for this informal gathering on Tuesday, August
+  25th, to share ideas and inspirations as we start this new year.
 ---
