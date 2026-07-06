@@ -6,7 +6,7 @@ times: 10-11:30 am
 tags:
   - event
 image: /assets/images/upload/curiosity-and-joy.png
-imageAlt: Elementary Educator's first gathering invitation
+imageAlt: How to inspire Curiosity and Joy in our elementary classrooms?
 description: "The Calgary Reggio Network Association Mentoring Program invites
   Elementary Educators to participate in a new discussion group focusing on the
   interests and needs of teachers working in elementary classrooms,
