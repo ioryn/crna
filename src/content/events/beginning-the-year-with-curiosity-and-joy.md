@@ -1,6 +1,6 @@
 ---
 title: Beginning the year with Curiosity and Joy
-link: https://drive.google.com/file/d/1DSzQMUCdCDMPhtG5YERGsAhIbFDWJBib/view?usp=sharing
+link: https://drive.google.com/file/d/1weUi9pVEq6zelUqlEEYg2u_xwHYuGMJX/view?usp=sharing
 date: 2026-08-25
 times: 10-11:30 am
 tags:
