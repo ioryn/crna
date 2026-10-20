@@ -6,7 +6,7 @@ times: 10:00 - 11:30 am
 tags:
   - event
 image: /assets/images/upload/cropped_what-is-behind-the-design-of-a-learning-environment-2.jpeg
-imageAlt: What is behind the design of a learning environment?
+imageAlt: What is behind the design of a learning environment ?
 description: What makes a learning environment another teacher? How do our
   values, relationships, and pedagogical intentions shape the spaces we create
   for children?  Please join us for a morning of shared reflection and
