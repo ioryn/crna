@@ -10,6 +10,6 @@ imageAlt: What is behind the design of a learning environment?
 description: What makes a learning environment another teacher? How do our
   values, relationships, and pedagogical intentions shape the spaces we create
   for children?  Please join us for a morning of shared reflection and
-  exploration as we dive into these questions and more with the team at Little
-  Heartprints Academy and the CRNA mentors. Click to learn more.
+  exploration as we dive into these questions and more alongside the team at
+  Little Heartprints Academy and the CRNA mentors. Click to learn more.
 ---
